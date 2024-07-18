@@ -1,1 +1,200 @@
-var _0x527aa8=_0x261e;(function(_0x3d7cbd,_0x531a2d){var _0x5d8dd8=_0x261e,_0x58ce0d=_0x3d7cbd();while(!![]){try{var _0x53d631=-parseInt(_0x5d8dd8(0x100))/0x1+parseInt(_0x5d8dd8(0x12b))/0x2*(parseInt(_0x5d8dd8(0x11d))/0x3)+-parseInt(_0x5d8dd8(0x105))/0x4*(parseInt(_0x5d8dd8(0x125))/0x5)+parseInt(_0x5d8dd8(0x103))/0x6+parseInt(_0x5d8dd8(0x131))/0x7*(parseInt(_0x5d8dd8(0x116))/0x8)+parseInt(_0x5d8dd8(0xe4))/0x9+parseInt(_0x5d8dd8(0x124))/0xa*(-parseInt(_0x5d8dd8(0x12a))/0xb);if(_0x53d631===_0x531a2d)break;else _0x58ce0d['push'](_0x58ce0d['shift']());}catch(_0x3987a0){_0x58ce0d['push'](_0x58ce0d['shift']());}}}(_0x5783,0x934b6));var firebaseConfig={'apiKey':'AIzaSyBWXBp6l1WVz9TSx7hUqFBybgmzT2ZeikQ','authDomain':'discord-bot-ff668.firebaseapp.com','databaseURL':_0x527aa8(0xf5),'projectId':_0x527aa8(0xe5),'storageBucket':_0x527aa8(0xef),'messagingSenderId':_0x527aa8(0x112),'appId':_0x527aa8(0x134),'measurementId':_0x527aa8(0x102)};firebase[_0x527aa8(0x135)](firebaseConfig),firebase[_0x527aa8(0xf7)]();const db=firebase[_0x527aa8(0xfc)]();function reset(){var _0x11b79f=_0x527aa8;window[_0x11b79f(0x110)]['reload']();}function gologo(){var _0x25c2e8=_0x527aa8;return window['location'][_0x25c2e8(0x10e)]=_0x25c2e8(0x114);}var afk=0x0,last_clicked=0x0;function _0x5783(){var _0x1b3141=['innerText','ceil','economy','lime','userAgent','futrik','Vitaj,\x20[Helper]\x20','href','display','location','log-uvod','451808596458','cookie','../logged_in/','Denný\x20gamble\x20limit:\x20','8BnGdaP','Nemáš\x20toľko\x20coinov','max_gamble','gamble_lose','Vitaj,\x20[SBS]\x20','style','Vitaj,\x20[Owner]\x20','354aZVWUM','money','Hamuj\x20sie,\x20klikáš\x20fess\x20rýchlo','SBS','innerHTML','addEventListener','max','30WqfAWa','5jYTzIw','doc','scroll','getElementById','data','1309682FHlPfC','326eTTZRl','exists','meno=','length','(^|\x20)','pregamblene','4059461rTSTNC','get','mousemove','1:451808596458:web:4d20e27d03bb60c5f8e293','initializeApp','Helper','keydown','test','statistiky','2788893DvbXNP','discord-bot-ff668','Musíš\x20staviť\x20minimálne\x205\x20coinov','collection','insertCell','AFK','stav_coinov','Minul\x20si\x20svoj\x20denný\x20gamble\x20limit','suma','=([^;]+)','Vitaj,\x20[Developer]\x20','discord-bot-ff668.appspot.com','gamble_count','tabulka','insertRow','match','update','https://discord-bot-ff668.firebaseio.com','now','analytics','mousedown','red',';\x20Path=/','then','firestore','backgroundColor','VIP','none','768201DkBRPm','value','G-QQZTNGFGBG','6502920CXUQFA','WIN','1056596oxonyW','floor'];_0x5783=function(){return _0x1b3141;};return _0x5783();}function refresh_coinov(_0xdfe0d0){var _0x2eb137=_0x527aa8;db[_0x2eb137(0xe7)](_0x2eb137(0x109))[_0x2eb137(0x126)](_0xdfe0d0)[_0x2eb137(0x132)]()[_0x2eb137(0xfb)](_0xc72434=>{var _0x3df0b4=_0x2eb137;let _0x3f8b44=_0xc72434[_0x3df0b4(0x129)]()['money'];document[_0x3df0b4(0x128)](_0x3df0b4(0xea))[_0x3df0b4(0x107)]=_0x3f8b44+'\x20coinov';});}function auto_refresh_coinov(_0x2fb56b,_0x398a48){setInterval(function(){var _0x1d623c=_0x261e;if(afk==0x1){document['getElementById'](_0x1d623c(0xea))[_0x1d623c(0x107)]=_0x1d623c(0xe9);return;}db[_0x1d623c(0xe7)](_0x1d623c(0x109))[_0x1d623c(0x126)](_0x398a48)[_0x1d623c(0x132)]()[_0x1d623c(0xfb)](_0xc66bc2=>{var _0xded26a=_0x1d623c;let _0x32571b=_0xc66bc2['data']()[_0xded26a(0x11e)];document['getElementById'](_0xded26a(0xea))[_0xded26a(0x107)]=_0x32571b+'\x20coinov';});},_0x2fb56b);}function gam_start(_0x3df237,_0x440cd1,_0x1c8ad0){var _0x5b5889=_0x527aa8;function _0x56bf08(){var _0x31a7d8=_0x261e,_0x4e7f9d=0x0,_0x2be4d3=0x14;setInterval(function(){_0x4e7f9d++,_0x4e7f9d>_0x2be4d3&&(afk=0x1);},0x3e8);function _0x547f3a(){_0x4e7f9d=0x0,afk=0x0;}var _0x3607da=[_0x31a7d8(0xf8),_0x31a7d8(0x133),_0x31a7d8(0x137),_0x31a7d8(0x127),'touchstart'];_0x3607da['forEach'](function(_0x31eff4){var _0x5caaf2=_0x31a7d8;document[_0x5caaf2(0x122)](_0x31eff4,_0x547f3a,!![]);});}_0x56bf08();var _0x576adb=document['cookie'][_0x5b5889(0xf3)](new RegExp(_0x5b5889(0x12f)+_0x3df237+'=([^;]+)'));if(_0x576adb){let _0x22004f=_0x576adb[0x2];}else return window['location'][_0x5b5889(0x10e)]='/';var _0x56977f=document[_0x5b5889(0x113)][_0x5b5889(0xf3)](new RegExp(_0x5b5889(0x12f)+_0x440cd1+'=([^;]+)'));if(_0x56977f){let _0x2e1bf3=_0x56977f[0x2];auto_refresh_coinov(0x7d0,_0x2e1bf3),db[_0x5b5889(0xe7)](_0x5b5889(0xe3))[_0x5b5889(0x126)](_0x2e1bf3)['get']()[_0x5b5889(0xfb)](_0x1574fa=>{var _0x2b33b1=_0x5b5889;let _0x2abc30=_0x1574fa[_0x2b33b1(0x129)]()[_0x2b33b1(0xf0)];document[_0x2b33b1(0x128)]('max_gamble')['innerText']=_0x2b33b1(0x115)+_0x2abc30;});}var _0x247089=document[_0x5b5889(0x113)][_0x5b5889(0xf3)](new RegExp('(^|\x20)'+_0x1c8ad0+_0x5b5889(0xed)));if(_0x247089){let _0x576e26=_0x247089[0x2];if(_0x576e26=='Owner')return document[_0x5b5889(0x128)](_0x5b5889(0x111))['innerText']=_0x5b5889(0x11c)+_0x576adb[0x2];else{if(_0x576e26==_0x5b5889(0x136))return document[_0x5b5889(0x128)](_0x5b5889(0x111))[_0x5b5889(0x107)]=_0x5b5889(0x10d)+_0x576adb[0x2];else{if(_0x576e26=='Developer')return document[_0x5b5889(0x128)](_0x5b5889(0x111))[_0x5b5889(0x107)]=_0x5b5889(0xee)+_0x576adb[0x2];else{if(_0x576e26==_0x5b5889(0x120))return document[_0x5b5889(0x128)]('log-uvod')[_0x5b5889(0x107)]=_0x5b5889(0x11a)+_0x576adb[0x2];else{if(_0x576e26==_0x5b5889(0xfe))return document[_0x5b5889(0x128)](_0x5b5889(0x111))[_0x5b5889(0x107)]='Vitaj,\x20[VIP]\x20'+_0x576adb[0x2];else return document[_0x5b5889(0x128)](_0x5b5889(0x111))[_0x5b5889(0x107)]='Vitaj,\x20'+_0x576adb[0x2];}}}}}}function gamble(_0x27de7f,_0x3dd1f9){var _0xa5f002=_0x527aa8,_0x5f12ee=document[_0xa5f002(0x113)][_0xa5f002(0xf3)](new RegExp('(^|\x20)'+_0x27de7f+'=([^;]+)')),_0x4fd277=document[_0xa5f002(0x113)][_0xa5f002(0xf3)](new RegExp(_0xa5f002(0x12f)+_0x3dd1f9+_0xa5f002(0xed)));let _0x39d2ef=_0x4fd277[0x2],_0x361b8e=_0x5f12ee[0x2];if(Date[_0xa5f002(0xf6)]()-last_clicked<0x1f4)return alert(_0xa5f002(0x11f));last_clicked=Date[_0xa5f002(0xf6)](),db['collection']('economy')[_0xa5f002(0x126)](_0x39d2ef)[_0xa5f002(0x132)]()[_0xa5f002(0xfb)](_0x42bc34=>{var _0x2da655=_0xa5f002;if(_0x42bc34[_0x2da655(0x12c)]){var _0xa292b4=_0x42bc34[_0x2da655(0x129)]()[_0x2da655(0x11e)];document[_0x2da655(0x128)]('suma')[_0x2da655(0x123)]=_0xa292b4;let _0x2776f5=parseInt(document[_0x2da655(0x128)](_0x2da655(0xec))[_0x2da655(0x101)]);if(_0x2776f5<0x5||isNaN(_0x2776f5))return alert(_0x2da655(0xe6));if(_0x2776f5>_0xa292b4)return alert(_0x2da655(0x117));function _0x42016b(_0x2deb45,_0x38f245){var _0x36b95b=_0x2da655;return _0x2deb45=Math[_0x36b95b(0x108)](_0x2deb45),_0x38f245=Math[_0x36b95b(0x106)](_0x38f245),Math['floor'](Math['random']()*(_0x38f245-_0x2deb45+0x1))+_0x2deb45;}db[_0x2da655(0xe7)](_0x2da655(0xe3))[_0x2da655(0x126)](_0x39d2ef)[_0x2da655(0x132)]()['then'](_0x4a6fa5=>{var _0x388d8e=_0x2da655,_0x162db5=_0x4a6fa5[_0x388d8e(0x129)]()[_0x388d8e(0x119)],_0x1f5399=_0x4a6fa5[_0x388d8e(0x129)]()['gamble_win'],_0x3cbf1e=_0x4a6fa5[_0x388d8e(0x129)]()[_0x388d8e(0x130)],_0x28915c=_0x4a6fa5['data']()['suma_vyhra'],_0xb2a3e=_0x4a6fa5[_0x388d8e(0x129)]()['suma_prehra'],_0xe26142=_0x4a6fa5[_0x388d8e(0x129)]()[_0x388d8e(0xf0)];if(_0xe26142<=0x0)return alert(_0x388d8e(0xeb));let _0x525ff4=['l','w','l','w','l','w','l','w','l','w','l','w','l','w','l','w','l','w','l','l'];var _0x1988e2=_0x525ff4[Math[_0x388d8e(0x106)](Math['random']()*_0x525ff4[_0x388d8e(0x12e)])];if(_0x1988e2=='w'){_0xa292b4+=_0x2776f5,db[_0x388d8e(0xe7)](_0x388d8e(0x109))['doc'](_0x39d2ef)['update']({'money':_0xa292b4}),_0x3cbf1e+=_0x2776f5,_0x1f5399+=0x1,_0x28915c+=_0x2776f5,_0xe26142-=0x1,db[_0x388d8e(0xe7)](_0x388d8e(0xe3))[_0x388d8e(0x126)](_0x39d2ef)['update']({'pregamblene':_0x3cbf1e,'gamble_win':_0x1f5399,'suma_vyhra':_0x28915c,'gamble_count':_0xe26142});var _0x2ac8aa=document[_0x388d8e(0x128)]('tabulka'),_0x352bb1=_0x2ac8aa[_0x388d8e(0xf2)](0x1),_0x358135=_0x352bb1['insertCell'](0x0),_0x18423d=_0x352bb1[_0x388d8e(0xe8)](0x1),_0x3b8661=_0x352bb1[_0x388d8e(0xe8)](0x2);_0x18423d[_0x388d8e(0x121)]=_0x2776f5,_0x3b8661['innerHTML']=_0x388d8e(0x104),_0x352bb1[_0x388d8e(0x11b)][_0x388d8e(0xfd)]=_0x388d8e(0x10a);}else{_0xa292b4-=_0x2776f5,db[_0x388d8e(0xe7)](_0x388d8e(0x109))[_0x388d8e(0x126)](_0x39d2ef)['update']({'money':_0xa292b4}),_0x3cbf1e+=_0x2776f5,_0x162db5+=0x1,_0xb2a3e+=_0x2776f5,_0xe26142-=0x1,db[_0x388d8e(0xe7)]('statistiky')['doc'](_0x39d2ef)[_0x388d8e(0xf4)]({'pregamblene':_0x3cbf1e,'gamble_lose':_0x162db5,'suma_prehra':_0xb2a3e,'gamble_count':_0xe26142});var _0x2ac8aa=document[_0x388d8e(0x128)](_0x388d8e(0xf1)),_0x352bb1=_0x2ac8aa['insertRow'](0x1),_0x358135=_0x352bb1[_0x388d8e(0xe8)](0x0),_0x18423d=_0x352bb1[_0x388d8e(0xe8)](0x1),_0x3b8661=_0x352bb1['insertCell'](0x2);_0x18423d[_0x388d8e(0x121)]=_0x2776f5,_0x3b8661[_0x388d8e(0x121)]='LOSE',_0x352bb1[_0x388d8e(0x11b)]['backgroundColor']=_0x388d8e(0xf9);}document[_0x388d8e(0x128)](_0x388d8e(0x118))[_0x388d8e(0x107)]=_0x388d8e(0x115)+_0xe26142;});}});}function skry_footer(){var _0x414fe5=_0x527aa8;if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i['test'](navigator[_0x414fe5(0x10b)]))return document['getElementById'](_0x414fe5(0x10c))['style'][_0x414fe5(0x10f)]=_0x414fe5(0xff);else return;}function _0x261e(_0x3d7de8,_0x4197a8){var _0x57831a=_0x5783();return _0x261e=function(_0x261edd,_0x2e0db6){_0x261edd=_0x261edd-0xe2;var _0x400b46=_0x57831a[_0x261edd];return _0x400b46;},_0x261e(_0x3d7de8,_0x4197a8);}function ukaz_footer(){var _0x23cb92=_0x527aa8;if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i[_0x23cb92(0xe2)](navigator[_0x23cb92(0x10b)]))return document[_0x23cb92(0x128)](_0x23cb92(0x10c))[_0x23cb92(0x11b)]['display']='block';else return;}function odhlasenie(){var _0x1093c3=_0x527aa8;return document[_0x1093c3(0x113)]=_0x1093c3(0x12d)+_0x1093c3(0xfa),document[_0x1093c3(0x113)]='id='+_0x1093c3(0xfa),document[_0x1093c3(0x113)]='rola='+';\x20Path=/',window[_0x1093c3(0x110)][_0x1093c3(0x10e)]='/';}
+var firebaseConfig = {
+    "your firebase config": "insert here"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+const db = firebase.firestore();
+///////////////////////////////////////////////
+function reset() {
+    window.location.reload();
+}
+function gologo() {
+    return window.location.href = '../logged_in/'
+}
+///////////////////////////////////////////////////////
+var afk = 0;
+var last_clicked = 0;
+///////////////////////////////////////////////////////
+function refresh_coinov(id) {
+    db.collection('economy').doc(id).get().then((s) => {
+        let peniazky = s.data().money;
+        document.getElementById('stav_coinov').innerText = `${peniazky} coinov`;
+    });
+}
+function auto_refresh_coinov(kedy, id) {
+    setInterval(function() {
+		if(afk == 1){
+            document.getElementById('stav_coinov').innerText = 'AFK';
+            return;
+        }
+        db.collection('economy').doc(id).get().then((s) => {
+            let peniazky = s.data().money;
+            document.getElementById('stav_coinov').innerText = `${peniazky} coinov`;
+        });
+    }, kedy);
+}
+///////////////////////////////////////////////////////
+function gam_start(name, id, rola) {
+
+    function activityWatcher(){
+		var secondsSinceLastActivity = 0;
+		var maxInactivity = 20;
+		setInterval(function(){
+			secondsSinceLastActivity++;
+			if(secondsSinceLastActivity > maxInactivity){
+				afk = 1;
+			}
+		}, 1000);
+		function activity(){
+			secondsSinceLastActivity = 0;
+			afk = 0;
+		}
+		var activityEvents = [
+			'mousedown', 'mousemove', 'keydown',
+			'scroll', 'touchstart'
+		];
+		activityEvents.forEach(function(eventName) {
+			document.addEventListener(eventName, activity, true);
+		});
+	}
+	activityWatcher();
+
+    
+    var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+    if (match) {
+        let meno = match[2];
+    } else {
+        return window.location.href = '/';
+    }
+    var zhoda = document.cookie.match(new RegExp('(^| )' + id + '=([^;]+)'));
+    if (zhoda) {
+        let idcko = zhoda[2];
+        auto_refresh_coinov(2000, idcko);
+        db.collection('statistiky').doc(idcko).get().then((s) => {
+            let gamble_count = s.data().gamble_count;
+            document.getElementById('max_gamble').innerText = `Denný gamble limit: ${gamble_count}`;
+        });
+    }
+    var zhoda2 = document.cookie.match(new RegExp('(^| )' + rola + '=([^;]+)'));
+    if (zhoda2) {
+        let rola = zhoda2[2];
+        if (rola == "Owner") return document.getElementById('log-uvod').innerText = "Vitaj, [Owner] " + match[2];
+        else if (rola == "Helper") return document.getElementById('log-uvod').innerText = "Vitaj, [Helper] " + match[2];
+        else if (rola == "Developer") return document.getElementById('log-uvod').innerText = "Vitaj, [Developer] " + match[2];
+        else if (rola == "SBS") return document.getElementById('log-uvod').innerText = "Vitaj, [SBS] " + match[2];
+        else if (rola == "VIP") return document.getElementById('log-uvod').innerText = "Vitaj, [VIP] " + match[2];
+        else return document.getElementById('log-uvod').innerText = "Vitaj, " + match[2];
+    }
+}
+///////////////////////////////////////////////////////
+function gamble(name, id){
+    var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+    var zhoda = document.cookie.match(new RegExp('(^| )' + id + '=([^;]+)'));
+    let idcko = zhoda[2];//moje id
+    let meno = match[2];//moj tag
+
+    if (Date.now() - last_clicked < 500) return alert("Hamuj sie, klikáš fess rýchlo");
+    last_clicked = Date.now();
+
+    db.collection('economy').doc(idcko).get().then((q) => {
+        if(q.exists){
+            var hodnota = q.data().money;
+            document.getElementById('suma').max = hodnota;
+            let bet = parseInt(document.getElementById('suma').value);
+            if(bet < 5 || isNaN(bet)) return alert("Musíš staviť minimálne 5 coinov");
+            if(bet > hodnota) return alert("Nemáš toľko coinov");
+            function getRandomInt(min, max) {
+                min = Math.ceil(min);
+                max = Math.floor(max);
+                return Math.floor(Math.random() * (max - min + 1)) + min;
+            }   
+            db.collection('statistiky').doc(idcko).get().then((ia) => {
+                var lose = ia.data().gamble_lose;
+                var win = ia.data().gamble_win;
+                var pregamble = ia.data().pregamblene;
+                var suma_win = ia.data().suma_vyhra;
+                var suma_lose = ia.data().suma_prehra;
+                var gamble_count = ia.data().gamble_count;
+                if(gamble_count <=0){
+                    return alert("Minul si svoj denný gamble limit");
+                }
+                let moznosti = ["l", "w", "l", "w", "l", "w", "l", "w", "l", "w", "l", "w", "l", "w", "l", "w", "l", "w", "l", "l"];
+                var vyber = moznosti[Math.floor(Math.random() * moznosti.length)];
+                if(vyber == 'w'){
+                    hodnota += bet;
+                    db.collection('economy').doc(idcko).update({
+                        'money': hodnota
+                    });
+                    pregamble+=bet;
+                    win+=1;
+                    suma_win+=bet;
+                    gamble_count -= 1;
+                    db.collection('statistiky').doc(idcko).update({
+                        'pregamblene': pregamble,
+                        'gamble_win': win,
+                        'suma_vyhra': suma_win,
+                        'gamble_count': gamble_count,
+                    });
+                    var table = document.getElementById("tabulka");
+                    var row = table.insertRow(1);
+                    var cell1 = row.insertCell(0);
+                    var cell2 = row.insertCell(1);
+                    var cell3 = row.insertCell(2);
+                    //cell1.innerHTML = ;
+                    cell2.innerHTML = bet;
+                    cell3.innerHTML = "WIN";
+                    row.style.backgroundColor = "lime";
+                }
+                else{
+                    hodnota -= bet;
+                    db.collection('economy').doc(idcko).update({
+                        'money': hodnota
+                    });
+                    pregamble+=bet;
+                    lose+=1;
+                    suma_lose+=bet;
+                    gamble_count -= 1;
+                    db.collection('statistiky').doc(idcko).update({
+                        'pregamblene': pregamble,
+                        'gamble_lose': lose,
+                        'suma_prehra': suma_lose,
+                        'gamble_count': gamble_count,
+                    });
+                    var table = document.getElementById("tabulka");
+                    var row = table.insertRow(1);
+                    var cell1 = row.insertCell(0);
+                    var cell2 = row.insertCell(1);
+                    var cell3 = row.insertCell(2);
+                    //cell1.innerHTML = ;
+                    cell2.innerHTML = bet;
+                    cell3.innerHTML = "LOSE";
+                    row.style.backgroundColor = "red";
+                }
+                document.getElementById('max_gamble').innerText = `Denný gamble limit: ${gamble_count}`;
+            });
+        }
+    });
+}
+///////////////////////////////////////////////////////
+function skry_footer(){
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+        return document.getElementById('futrik').style.display = "none";
+    }else{
+        return;
+    }
+}
+function ukaz_footer(){
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+        return document.getElementById('futrik').style.display = "block";
+    }else{
+        return;
+    }
+}
+///////////////////////////////////////////////////////
+function odhlasenie() {
+    document.cookie = "meno=" + "; Path=/";
+    document.cookie = "id=" + "; Path=/";
+    document.cookie = "rola=" + "; Path=/";
+    return window.location.href = '/';
+}

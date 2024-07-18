@@ -1,1 +1,283 @@
-const _0x3a143f=_0x1632;function _0xf318(){const _0xbb7267=['style','none','Vitaj,\x20[SBS]\x20','update','\x20coinov','stav_coinov','Helper','spin_button','match','daily','id=','dailicko','1:451808596458:web:4d20e27d03bb60c5f8e293','mousedown','Owner','display','discord-bot-ff668','45LauPtw','70BaNCon','451808596458','Vitaj,\x20[Owner]\x20','innerText','collection','Vitaj,\x20[Helper]\x20','get','href','doc','Vitaj,\x20[VIP]\x20','Vitaj,\x20','VIP','rola=','log-uvod','5IjbzxG','block','Vitaj,\x20[Developer]\x20','initializeApp',';\x20Path=/','cookie','random','278705nFCXIE','1673274vZwSmH','156213rMBqyV','discord-bot-ff668.firebaseapp.com','mousemove','../logged_in/','=([^;]+)','economy','meno=','now','22zRDnEM','floor','location','44542TZEDPK','.\x20Aktuálne\x20máš\x20','scroll','1846460xjoLPM','web','web-dailicko-cas','data','88BKgUyg','16263WXQSbJ','keydown','getElementById','Získal\x20si\x20svoju\x20dennú\x20web\x20odmenu\x20v\x20hodnote\x20','reload','AIzaSyBWXBp6l1WVz9TSx7hUqFBybgmzT2ZeikQ','2981940PCArgn','(^|\x20)','Získal\x20si\x20svoju\x20dennú\x20odmenu\x20v\x20hodnote\x20','touchstart','discord-bot-ff668.appspot.com','then','money'];_0xf318=function(){return _0xbb7267;};return _0xf318();}(function(_0x54f059,_0x294a27){const _0xbbe1fa=_0x1632,_0x529928=_0x54f059();while(!![]){try{const _0x368109=-parseInt(_0xbbe1fa(0x19a))/0x1+-parseInt(_0xbbe1fa(0x192))/0x2*(parseInt(_0xbbe1fa(0x1b8))/0x3)+parseInt(_0xbbe1fa(0x195))/0x4+-parseInt(_0xbbe1fa(0x17e))/0x5*(-parseInt(_0xbbe1fa(0x186))/0x6)+-parseInt(_0xbbe1fa(0x185))/0x7*(parseInt(_0xbbe1fa(0x199))/0x8)+-parseInt(_0xbbe1fa(0x187))/0x9*(parseInt(_0xbbe1fa(0x1b9))/0xa)+parseInt(_0xbbe1fa(0x18f))/0xb*(parseInt(_0xbbe1fa(0x1a0))/0xc);if(_0x368109===_0x294a27)break;else _0x529928['push'](_0x529928['shift']());}catch(_0x7832ab){_0x529928['push'](_0x529928['shift']());}}}(_0xf318,0x5000c));function _0x1632(_0x33b72d,_0xb95309){const _0xf31882=_0xf318();return _0x1632=function(_0x163209,_0x2c0a55){_0x163209=_0x163209-0x174;let _0xaf2997=_0xf31882[_0x163209];return _0xaf2997;},_0x1632(_0x33b72d,_0xb95309);}var firebaseConfig={'apiKey':_0x3a143f(0x19f),'authDomain':_0x3a143f(0x188),'databaseURL':'https://discord-bot-ff668.firebaseio.com','projectId':_0x3a143f(0x1b7),'storageBucket':_0x3a143f(0x1a4),'messagingSenderId':_0x3a143f(0x1ba),'appId':_0x3a143f(0x1b3),'measurementId':'G-QQZTNGFGBG'};firebase[_0x3a143f(0x181)](firebaseConfig),firebase['analytics']();const db=firebase['firestore']();function msToTime(_0x1bf646){const _0x5b52aa=_0x3a143f;var _0x4a3377=parseInt(_0x1bf646%0x3e8/0x64),_0x700d5=Math['floor'](_0x1bf646/0x3e8%0x3c),_0x44ea98=Math[_0x5b52aa(0x190)](_0x1bf646/(0x3e8*0x3c)%0x3c),_0x324199=Math[_0x5b52aa(0x190)](_0x1bf646/(0x3e8*0x3c*0x3c)%0x18);return _0x324199=_0x324199<0xa?'0'+_0x324199:_0x324199,_0x44ea98=_0x44ea98<0xa?'0'+_0x44ea98:_0x44ea98,_0x700d5=_0x700d5<0xa?'0'+_0x700d5:_0x700d5,_0x324199+'h\x20'+_0x44ea98+'m\x20'+_0x700d5+'s';}function reset(){const _0x1c4f56=_0x3a143f;window[_0x1c4f56(0x191)][_0x1c4f56(0x19e)]();}function gologo(){const _0x7a95da=_0x3a143f;return window['location'][_0x7a95da(0x177)]=_0x7a95da(0x18a);}function loadCookies(_0x356a9b){const _0x30f05a=_0x3a143f;var _0x971d33=document[_0x30f05a(0x183)][_0x30f05a(0x1af)](new RegExp(_0x30f05a(0x1a1)+_0x356a9b+'=([^;]+)'));if(_0x971d33)document['getElementById']('hla_textik')[_0x30f05a(0x1bc)]=_0x971d33[0x2];else return window[_0x30f05a(0x191)][_0x30f05a(0x177)]='/';}var afk=0x0;function refresh_coinov(_0x4a798f){const _0x128392=_0x3a143f;db[_0x128392(0x174)](_0x128392(0x18c))[_0x128392(0x178)](_0x4a798f)[_0x128392(0x176)]()['then'](_0x30484b=>{const _0x3f87cd=_0x128392;let _0x2664e1=_0x30484b['data']()['money'];document[_0x3f87cd(0x19c)](_0x3f87cd(0x1ac))[_0x3f87cd(0x1bc)]=_0x2664e1+_0x3f87cd(0x1ab);});}function auto_refresh_coinov(_0x187867,_0x404b1f){setInterval(function(){const _0x1a9f6f=_0x1632;if(afk==0x1)return;db['collection'](_0x1a9f6f(0x18c))[_0x1a9f6f(0x178)](_0x404b1f)[_0x1a9f6f(0x176)]()[_0x1a9f6f(0x1a5)](_0x4f18ad=>{const _0x2d0714=_0x1a9f6f;let _0x101088=_0x4f18ad[_0x2d0714(0x198)]()[_0x2d0714(0x1a6)];document[_0x2d0714(0x19c)](_0x2d0714(0x1ac))['innerText']=_0x101088+_0x2d0714(0x1ab);});},_0x187867);}function dai_start(_0x544436,_0x3d5517,_0xdad0e9){const _0x4c477b=_0x3a143f;function _0x313bfd(){const _0x34ade7=_0x1632;var _0x5efae0=0x0,_0x3521d0=0x14;setInterval(function(){_0x5efae0++,_0x5efae0>_0x3521d0&&(afk=0x1);},0x3e8);function _0x23d63f(){_0x5efae0=0x0,afk=0x0;}var _0x12d393=[_0x34ade7(0x1b4),_0x34ade7(0x189),_0x34ade7(0x19b),_0x34ade7(0x194),_0x34ade7(0x1a3)];_0x12d393['forEach'](function(_0x3ecce9){document['addEventListener'](_0x3ecce9,_0x23d63f,!![]);});}_0x313bfd(),document[_0x4c477b(0x19c)](_0x4c477b(0x1b2))['style'][_0x4c477b(0x1b6)]='none',document['getElementById'](_0x4c477b(0x1ae))[_0x4c477b(0x1a7)]['display']='none';var _0x3fab2a=document['cookie'][_0x4c477b(0x1af)](new RegExp('(^|\x20)'+_0x544436+_0x4c477b(0x18b)));if(_0x3fab2a){let _0x285127=_0x3fab2a[0x2];}else return window[_0x4c477b(0x191)][_0x4c477b(0x177)]='/';var _0x30f355=document['cookie'][_0x4c477b(0x1af)](new RegExp(_0x4c477b(0x1a1)+_0x3d5517+'=([^;]+)'));if(_0x30f355){let _0x509099=_0x30f355[0x2];auto_refresh_coinov(0x7d0,_0x509099),db[_0x4c477b(0x174)]('economy')[_0x4c477b(0x178)](_0x509099)[_0x4c477b(0x176)]()[_0x4c477b(0x1a5)](_0x4ad389=>{const _0x46b126=_0x4c477b;let _0x559d57=_0x4ad389[_0x46b126(0x198)]()['daily'],_0x5aa54f=0x5265c00;setInterval(function(){const _0x3ad903=_0x46b126;let _0x196c29=Date['now']();_0x559d57+_0x5aa54f<_0x196c29?(document[_0x3ad903(0x19c)](_0x3ad903(0x1b2))[_0x3ad903(0x1a7)][_0x3ad903(0x1b6)]=_0x3ad903(0x17f),document[_0x3ad903(0x19c)]('daily_time')[_0x3ad903(0x1a7)]['display']='none'):(document[_0x3ad903(0x19c)]('daily_time')['innerText']=msToTime(_0x559d57-(_0x196c29-_0x5aa54f)),document[_0x3ad903(0x19c)](_0x3ad903(0x1b2))[_0x3ad903(0x1a7)][_0x3ad903(0x1b6)]=_0x3ad903(0x1a8));},0x3e8);});var _0xb4d80e=document[_0x4c477b(0x183)][_0x4c477b(0x1af)](new RegExp(_0x4c477b(0x1a1)+_0x544436+_0x4c477b(0x18b)));let _0x4e6046=_0xb4d80e[0x2];db[_0x4c477b(0x174)](_0x4c477b(0x196))[_0x4c477b(0x178)](_0x4e6046)[_0x4c477b(0x176)]()[_0x4c477b(0x1a5)](_0x3b6a50=>{const _0x35f669=_0x4c477b;var _0x45923e=document[_0x35f669(0x183)][_0x35f669(0x1af)](new RegExp('(^|\x20)'+_0xdad0e9+_0x35f669(0x18b)));let _0xdfbaeb=_0x45923e[0x2];if(_0xdfbaeb){if(_0xdfbaeb==_0x35f669(0x17b)){let _0x468246=_0x3b6a50['data']()[_0x35f669(0x1b0)],_0x5af7d0=0x36ee80;setInterval(function(){const _0x185c9d=_0x35f669;let _0x371dd2=Date['now']();_0x468246+_0x5af7d0<_0x371dd2?(document[_0x185c9d(0x19c)](_0x185c9d(0x197))[_0x185c9d(0x1a7)][_0x185c9d(0x1b6)]=_0x185c9d(0x1a8),document[_0x185c9d(0x19c)](_0x185c9d(0x1ae))['style'][_0x185c9d(0x1b6)]='block'):(document['getElementById'](_0x185c9d(0x197))[_0x185c9d(0x1bc)]=msToTime(_0x468246-(_0x371dd2-_0x5af7d0)),document['getElementById'](_0x185c9d(0x1ae))[_0x185c9d(0x1a7)][_0x185c9d(0x1b6)]=_0x185c9d(0x1a8));},0x3e8);}else{let _0x5cabe3=_0x3b6a50[_0x35f669(0x198)]()[_0x35f669(0x1b0)],_0x4cd429=0x6ddd00;setInterval(function(){const _0x1639b1=_0x35f669;let _0x17f769=Date[_0x1639b1(0x18e)]();_0x5cabe3+_0x4cd429<_0x17f769?(document[_0x1639b1(0x19c)](_0x1639b1(0x197))['style'][_0x1639b1(0x1b6)]=_0x1639b1(0x1a8),document[_0x1639b1(0x19c)]('spin_button')['style'][_0x1639b1(0x1b6)]=_0x1639b1(0x17f)):(document['getElementById'](_0x1639b1(0x197))[_0x1639b1(0x1bc)]=msToTime(_0x5cabe3-(_0x17f769-_0x4cd429)),document['getElementById']('spin_button')[_0x1639b1(0x1a7)]['display']=_0x1639b1(0x1a8));},0x3e8);}}});}var _0x2fc07f=document[_0x4c477b(0x183)]['match'](new RegExp(_0x4c477b(0x1a1)+_0xdad0e9+'=([^;]+)'));if(_0x2fc07f){let _0x45cff8=_0x2fc07f[0x2];if(_0x45cff8==_0x4c477b(0x1b5))return document[_0x4c477b(0x19c)]('log-uvod')['innerText']=_0x4c477b(0x1bb)+_0x3fab2a[0x2];else{if(_0x45cff8==_0x4c477b(0x1ad))return document[_0x4c477b(0x19c)](_0x4c477b(0x17d))[_0x4c477b(0x1bc)]=_0x4c477b(0x175)+_0x3fab2a[0x2];else{if(_0x45cff8=='Developer')return document['getElementById'](_0x4c477b(0x17d))[_0x4c477b(0x1bc)]=_0x4c477b(0x180)+_0x3fab2a[0x2];else{if(_0x45cff8=='SBS')return document[_0x4c477b(0x19c)](_0x4c477b(0x17d))[_0x4c477b(0x1bc)]=_0x4c477b(0x1a9)+_0x3fab2a[0x2];else{if(_0x45cff8==_0x4c477b(0x17b))return document['getElementById'](_0x4c477b(0x17d))[_0x4c477b(0x1bc)]=_0x4c477b(0x179)+_0x3fab2a[0x2];else return document[_0x4c477b(0x19c)](_0x4c477b(0x17d))[_0x4c477b(0x1bc)]=_0x4c477b(0x17a)+_0x3fab2a[0x2];}}}}}}function vyber_daily(_0x459ee6,_0xa65eb6){const _0x326732=_0x3a143f;var _0x1ae044=document[_0x326732(0x183)]['match'](new RegExp('(^|\x20)'+_0x459ee6+_0x326732(0x18b)));if(_0x1ae044){let _0x41735a=_0x1ae044[0x2];db[_0x326732(0x174)](_0x326732(0x18c))[_0x326732(0x178)](_0x41735a)[_0x326732(0x176)]()[_0x326732(0x1a5)](_0x18e10f=>{const _0x4d8dc7=_0x326732;var _0x355d29=_0x18e10f[_0x4d8dc7(0x198)]()['daily'],_0x1c5fcd=_0x18e10f[_0x4d8dc7(0x198)]()[_0x4d8dc7(0x1a6)];let _0x226f9e=0x5265c00;if(_0x355d29+_0x226f9e>Date['now']())reset();else{var _0x1d3ddc=document[_0x4d8dc7(0x183)][_0x4d8dc7(0x1af)](new RegExp(_0x4d8dc7(0x1a1)+_0xa65eb6+_0x4d8dc7(0x18b)));if(_0x1d3ddc){let _0x5a2dc1=_0x1d3ddc[0x2];function _0x3203cf(_0x354d10,_0x39610b){const _0x4c4d8b=_0x4d8dc7;return Math[_0x4c4d8b(0x190)](Math[_0x4c4d8b(0x184)]()*(_0x39610b-_0x354d10+0x1))+_0x354d10;}function _0x11a23c(_0x5db934,_0x58c844){const _0x44817a=_0x4d8dc7;return Math['floor'](Math[_0x44817a(0x184)]()*(_0x58c844-_0x5db934+0x1))+_0x5db934;}let _0x1cf372=_0x3203cf(0x32,0x64),_0x4e6ed5=_0x11a23c(0x64,0x96);_0x5a2dc1==_0x4d8dc7(0x17b)?(_0x1c5fcd+=_0x4e6ed5,db[_0x4d8dc7(0x174)]('economy')['doc'](_0x41735a)[_0x4d8dc7(0x1aa)]({'money':_0x1c5fcd}),db[_0x4d8dc7(0x174)](_0x4d8dc7(0x18c))[_0x4d8dc7(0x178)](_0x41735a)[_0x4d8dc7(0x1aa)]({'daily':Date['now']()}),alert(_0x4d8dc7(0x1a2)+_0x4e6ed5+_0x4d8dc7(0x193)+_0x1c5fcd),document[_0x4d8dc7(0x19c)](_0x4d8dc7(0x1b2))['style']['display']=_0x4d8dc7(0x1a8),setInterval(function(){reset();},0x320)):(_0x1c5fcd+=_0x1cf372,db[_0x4d8dc7(0x174)](_0x4d8dc7(0x18c))[_0x4d8dc7(0x178)](_0x41735a)[_0x4d8dc7(0x1aa)]({'money':_0x1c5fcd}),db[_0x4d8dc7(0x174)]('economy')[_0x4d8dc7(0x178)](_0x41735a)[_0x4d8dc7(0x1aa)]({'daily':Date['now']()}),alert(_0x4d8dc7(0x1a2)+_0x1cf372+_0x4d8dc7(0x193)+_0x1c5fcd),document['getElementById'](_0x4d8dc7(0x1b2))[_0x4d8dc7(0x1a7)][_0x4d8dc7(0x1b6)]=_0x4d8dc7(0x1a8),setInterval(function(){reset();},0x320));}}});}}function vyber_web_daily(_0x55d525,_0x3044eb,_0x292b78,_0x26ac2c){const _0x413f6e=_0x3a143f;var _0x12bf8c=document[_0x413f6e(0x183)][_0x413f6e(0x1af)](new RegExp('(^|\x20)'+_0x3044eb+_0x413f6e(0x18b))),_0x1b3774=document[_0x413f6e(0x183)][_0x413f6e(0x1af)](new RegExp(_0x413f6e(0x1a1)+_0x55d525+'=([^;]+)'));if(_0x12bf8c){let _0x96d907=_0x12bf8c[0x2],_0x3f35d8=_0x1b3774[0x2];db[_0x413f6e(0x174)]('web')['doc'](_0x3f35d8)[_0x413f6e(0x176)]()[_0x413f6e(0x1a5)](_0x5af5f7=>{const _0x5b36c4=_0x413f6e;var _0x245943=_0x5af5f7[_0x5b36c4(0x198)]()[_0x5b36c4(0x1b0)];db[_0x5b36c4(0x174)](_0x5b36c4(0x18c))[_0x5b36c4(0x178)](_0x96d907)[_0x5b36c4(0x176)]()[_0x5b36c4(0x1a5)](_0x650261=>{const _0x1c5374=_0x5b36c4;var _0x58dcc0=_0x650261[_0x1c5374(0x198)]()['money'];let _0x3ed900=0x6ddd00,_0x1d8d12=0x36ee80;var _0x27581e=document[_0x1c5374(0x183)][_0x1c5374(0x1af)](new RegExp(_0x1c5374(0x1a1)+_0x26ac2c+_0x1c5374(0x18b)));let _0x223331=_0x27581e[0x2];_0x223331&&(_0x223331==_0x1c5374(0x17b)?_0x245943+_0x1d8d12>Date[_0x1c5374(0x18e)]()?reset():(_0x58dcc0+=_0x292b78,db['collection'](_0x1c5374(0x18c))['doc'](_0x96d907)[_0x1c5374(0x1aa)]({'money':_0x58dcc0}),db[_0x1c5374(0x174)](_0x1c5374(0x196))[_0x1c5374(0x178)](_0x3f35d8)[_0x1c5374(0x1aa)]({'daily':Date['now']()}),alert('Získal\x20si\x20svoju\x20dennú\x20web\x20odmenu\x20v\x20hodnote\x20'+_0x292b78+_0x1c5374(0x193)+_0x58dcc0),document['getElementById'](_0x1c5374(0x1ae))['style']['display']=_0x1c5374(0x1a8),setInterval(function(){reset();},0x320)):_0x245943+_0x3ed900>Date[_0x1c5374(0x18e)]()?reset():(_0x58dcc0+=_0x292b78,db['collection'](_0x1c5374(0x18c))[_0x1c5374(0x178)](_0x96d907)['update']({'money':_0x58dcc0}),db[_0x1c5374(0x174)](_0x1c5374(0x196))[_0x1c5374(0x178)](_0x3f35d8)[_0x1c5374(0x1aa)]({'daily':Date[_0x1c5374(0x18e)]()}),alert(_0x1c5374(0x19d)+_0x292b78+_0x1c5374(0x193)+_0x58dcc0),document[_0x1c5374(0x19c)]('spin_button')[_0x1c5374(0x1a7)][_0x1c5374(0x1b6)]=_0x1c5374(0x1a8),setInterval(function(){reset();},0x320)));});});}}function odhlasenie(){const _0x3dc650=_0x3a143f;return document[_0x3dc650(0x183)]=_0x3dc650(0x18d)+_0x3dc650(0x182),document[_0x3dc650(0x183)]=_0x3dc650(0x1b1)+';\x20Path=/',document['cookie']=_0x3dc650(0x17c)+_0x3dc650(0x182),window[_0x3dc650(0x191)][_0x3dc650(0x177)]='/';}
+var firebaseConfig = {
+    "your firebase config": "insert here"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+const db = firebase.firestore();
+///////////////////////////////////////////////////////
+function msToTime(duration) {
+    var milliseconds = parseInt((duration % 1000) / 100),
+        seconds = Math.floor((duration / 1000) % 60),
+        minutes = Math.floor((duration / (1000 * 60)) % 60),
+        hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+    hours = (hours < 10) ? "0" + hours : hours;
+    minutes = (minutes < 10) ? "0" + minutes : minutes;
+    seconds = (seconds < 10) ? "0" + seconds : seconds;
+    return hours + "h " + minutes + "m " + seconds + "s";
+}
+///////////////////////////////////////////////////////
+function reset() {
+    window.location.reload();
+}
+function gologo() {
+    return window.location.href = '../logged_in/'
+}
+///////////////////////////////////////////////////////
+function loadCookies(name) {
+    var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+    if (match) {
+        document.getElementById('hla_textik').innerText = match[2];
+    } else {
+        return window.location.href = '/';
+    }
+}
+///////////////////////////////////////////////////////
+var afk = 0;
+///////////////////////////////////////////////////////
+function refresh_coinov(id) {
+    db.collection('economy').doc(id).get().then((s) => {
+        let peniazky = s.data().money;
+        document.getElementById('stav_coinov').innerText = `${peniazky} coinov`;
+    });
+}
+function auto_refresh_coinov(kedy, id) {
+    setInterval(function () {
+        if (afk == 1) return;
+        db.collection('economy').doc(id).get().then((s) => {
+            let peniazky = s.data().money;
+            document.getElementById('stav_coinov').innerText = `${peniazky} coinov`;
+        });
+    }, kedy);
+}
+///////////////////////////////////////////////////////
+function dai_start(name, id, rola) {
+    function activityWatcher() {
+
+        var secondsSinceLastActivity = 0;
+
+        var maxInactivity = 20;
+
+        setInterval(function () {
+            secondsSinceLastActivity++;
+            if (secondsSinceLastActivity > maxInactivity) {
+                afk = 1;
+            }
+        }, 1000);
+
+        function activity() {
+
+            secondsSinceLastActivity = 0;
+            afk = 0;
+        }
+
+        var activityEvents = [
+            'mousedown', 'mousemove', 'keydown',
+            'scroll', 'touchstart'
+        ];
+
+        activityEvents.forEach(function (eventName) {
+            document.addEventListener(eventName, activity, true);
+        });
+    }
+
+    activityWatcher();
+
+    document.getElementById('dailicko').style.display = "none";
+    document.getElementById('spin_button').style.display = "none";
+    var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+    if (match) {
+        let meno = match[2];
+    } else {
+        return window.location.href = '/';
+    }
+    var zhoda = document.cookie.match(new RegExp('(^| )' + id + '=([^;]+)'));
+    if (zhoda) {
+        let idcko = zhoda[2];
+        auto_refresh_coinov(2000, idcko);
+        db.collection('economy').doc(idcko).get().then((a) => {//zober cas z db na discord daily a zisti ci mozes vybrat
+            let vcera = a.data().daily;
+            let den = 86400000;
+            setInterval(function () {
+                let teraz = Date.now();
+                if (vcera + den < teraz) { //ked mozes brat daily
+                    document.getElementById('dailicko').style.display = "block"; //tlacidlo
+                    document.getElementById('daily_time').style.display = "none"; //cas kedy mozes zobrat daily
+                } else {
+                    document.getElementById('daily_time').innerText = msToTime(vcera - (teraz - den)); //cas kedy mozes zobrat daily
+                    document.getElementById('dailicko').style.display = "none"; //tlacidlo
+                }
+            }, 1000);
+        });
+        var nick = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+        let nicky = nick[2];
+        db.collection('web').doc(nicky).get().then((b) => {//zober cas z db na web daily a zisti ci mozes vybrat
+            var role = document.cookie.match(new RegExp('(^| )' + rola + '=([^;]+)'));
+            let rolka = role[2];
+            if (rolka) {
+                if (rolka == "VIP") {
+                    let vcerab = b.data().daily;
+                    let denb = 3600000;
+                    setInterval(function () {
+                        let terazb = Date.now();
+                        if (vcerab + denb < terazb) { //ked mozes
+                            document.getElementById('web-dailicko-cas').style.display = "none"; //cas
+                            document.getElementById('spin_button').style.display = "block"; //tlacidlo
+                        } else {
+                            document.getElementById('web-dailicko-cas').innerText = msToTime(vcerab - (terazb - denb)); //cas
+                            document.getElementById('spin_button').style.display = "none"; //tlacidlo
+                        }
+                    }, 1000);
+                } else {
+                    let vceraa = b.data().daily;
+                    let dena = 7200000;
+                    setInterval(function () {
+                        let teraza = Date.now();
+                        if (vceraa + dena < teraza) { //ked mozes
+                            document.getElementById('web-dailicko-cas').style.display = "none"; //cas
+                            document.getElementById('spin_button').style.display = "block"; //tlacidlo
+                        } else {
+                            document.getElementById('web-dailicko-cas').innerText = msToTime(vceraa - (teraza - dena)); //cas
+                            document.getElementById('spin_button').style.display = "none"; //tlacidlo
+                        }
+                    }, 1000);
+                }
+            }
+        });
+
+    }
+    var zhoda2 = document.cookie.match(new RegExp('(^| )' + rola + '=([^;]+)'));
+    if (zhoda2) {
+        let rola = zhoda2[2];
+        if (rola == "Owner") return document.getElementById('log-uvod').innerText = "Vitaj, [Owner] " + match[2];
+        else if (rola == "Helper") return document.getElementById('log-uvod').innerText = "Vitaj, [Helper] " + match[2];
+        else if (rola == "Developer") return document.getElementById('log-uvod').innerText = "Vitaj, [Developer] " + match[2];
+        else if (rola == "SBS") return document.getElementById('log-uvod').innerText = "Vitaj, [SBS] " + match[2];
+        else if (rola == "VIP") return document.getElementById('log-uvod').innerText = "Vitaj, [VIP] " + match[2];
+        else return document.getElementById('log-uvod').innerText = "Vitaj, " + match[2];
+    }
+}
+///////////////////////////////////////////////////////
+function vyber_daily(id, rola) {//discord daily
+    var match = document.cookie.match(new RegExp('(^| )' + id + '=([^;]+)'));
+    if (match) {
+        let idcko = match[2];
+        db.collection('economy').doc(idcko).get().then((q) => {
+            var hodnota = q.data().daily;
+            var peniaze = q.data().money;
+            let timeout = 86400000;
+            if (hodnota + timeout > Date.now()) {
+                reset();
+            } else {
+                var zhoda2 = document.cookie.match(new RegExp('(^| )' + rola + '=([^;]+)'));
+                if (zhoda2) {
+                    let rolicka = zhoda2[2];
+                    function randomodmena(min, max) {
+                        return Math.floor(Math.random() * (max - min + 1)) + min;
+                    }
+                    function randomodmenaVIP(min, max) {
+                        return Math.floor(Math.random() * (max - min + 1)) + min;
+                    }
+                    let reward = randomodmena(50, 100);
+                    let rewardVIP = randomodmenaVIP(100, 150);
+                    if (rolicka == "VIP") {
+                        peniaze += rewardVIP;
+                        db.collection('economy').doc(idcko).update({
+                            'money': peniaze
+                        });
+                        db.collection('economy').doc(idcko).update({
+                            'daily': Date.now()
+                        });
+                        alert(`Získal si svoju dennú odmenu v hodnote ${rewardVIP}. Aktuálne máš ${peniaze}`);
+                        //document.getElementById('vysledok').innerText = `Získal si svoju dennú odmenu v hodnote ${reward}. Aktuálne máš ${peniaze}`;
+                        document.getElementById('dailicko').style.display = "none";
+                        setInterval(function () {
+                            reset();
+                        }, 800);
+                    } else {
+                        peniaze += reward;
+                        db.collection('economy').doc(idcko).update({
+                            'money': peniaze
+                        });
+                        db.collection('economy').doc(idcko).update({
+                            'daily': Date.now()
+                        });
+                        alert(`Získal si svoju dennú odmenu v hodnote ${reward}. Aktuálne máš ${peniaze}`);
+                        //document.getElementById('vysledok').innerText = `Získal si svoju dennú odmenu v hodnote ${reward}. Aktuálne máš ${peniaze}`;
+                        document.getElementById('dailicko').style.display = "none";
+                        setInterval(function () {
+                            reset();
+                        }, 800);
+                    }
+                }
+            }
+        });
+    }
+}
+///////////////////////////////////////////////////////
+function vyber_web_daily(name, id, vyhra, rola) {//web daily
+    var match = document.cookie.match(new RegExp('(^| )' + id + '=([^;]+)'));
+    var matchik = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+    if (match) {
+        let idcko = match[2];
+        let meno = matchik[2];
+        db.collection('web').doc(meno).get().then((w) => {
+            var hodnota = w.data().daily;
+            db.collection('economy').doc(idcko).get().then((p) => {
+                var coinis = p.data().money;
+                let timeout = 7200000;
+                let timeout2 = 3600000;
+
+                var rolee = document.cookie.match(new RegExp('(^| )' + rola + '=([^;]+)'));
+                let rolkaa = rolee[2];
+
+                if (rolkaa) {
+                    if (rolkaa == "VIP") {
+                        if (hodnota + timeout2 > Date.now()) {
+                            reset();
+                        } else {
+                            coinis += vyhra;
+                            db.collection('economy').doc(idcko).update({
+                                'money': coinis
+                            });
+                            db.collection('web').doc(meno).update({
+                                'daily': Date.now()
+                            });
+                            alert(`Získal si svoju dennú web odmenu v hodnote ${vyhra}. Aktuálne máš ${coinis}`);
+                            //document.getElementById('vysledok').innerText = `Získal si svoju dennú odmenu v hodnote ${reward}. Aktuálne máš ${peniaze}`;
+                            document.getElementById('spin_button').style.display = "none";
+                            setInterval(function () {
+                                reset();
+                            }, 800);
+                        }
+                    } else {
+                        if (hodnota + timeout > Date.now()) {
+                            reset();
+                        } else {
+                            coinis += vyhra;
+                            db.collection('economy').doc(idcko).update({
+                                'money': coinis
+                            });
+                            db.collection('web').doc(meno).update({
+                                'daily': Date.now()
+                            });
+                            alert(`Získal si svoju dennú web odmenu v hodnote ${vyhra}. Aktuálne máš ${coinis}`);
+                            //document.getElementById('vysledok').innerText = `Získal si svoju dennú odmenu v hodnote ${reward}. Aktuálne máš ${peniaze}`;
+                            document.getElementById('spin_button').style.display = "none";
+                            setInterval(function () {
+                                reset();
+                            }, 800);
+                        }
+                    }
+                }
+            });
+        });
+    }
+}
+///////////////////////////////////////////////////////
+function odhlasenie() {
+    document.cookie = "meno=" + "; Path=/";
+    document.cookie = "id=" + "; Path=/";
+    document.cookie = "rola=" + "; Path=/";
+    return window.location.href = '/';
+}

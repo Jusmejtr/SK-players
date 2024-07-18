@@ -1,1 +1,137 @@
-const _0x474f=['../logged_in/','G-QQZTNGFGBG','getElementById','discord-bot-ff668.appspot.com','Vitaj,\x20[Helper]\x20','collection','add','percento','innerText','pregamblene','t-givnute','location','AIzaSyBWXBp6l1WVz9TSx7hUqFBybgmzT2ZeikQ','2278grekAR','suma_vyhra','Vitaj,\x20[VIP]\x20','limit','statistiky','toString','get','forEach','givnute','orderBy','href','404103niphGl',',\x20pregamblených:\x20','t-gamblelose','2vkzXII','VIP','option','SBS','t-sumawin','1.\x20miesto\x20','push','text','t-meno','Owner','discord-bot-ff668.firebaseapp.com','gamble_lose','Vitaj,\x20','money','<br>','670452HlhsDz',';\x20Path=/','451808596458','createElement','log-uvod','229219bElTWD','1:451808596458:web:4d20e27d03bb60c5f8e293','\x20coinov','firestore','empty','Developer','gamble_win','id=','value','reload','Vitaj,\x20[Owner]\x20','then','Helper','analytics','t-pregamblene','t-sumalose','meno','Vitaj,\x20[SBS]\x20','=([^;]+)','economy','t-gamblewin','599TVPOIa','cookie','rola=','1288242ZEbNyu','vyber','suma_prehra','initializeApp','replace','innerHTML','https://discord-bot-ff668.firebaseio.com','match','desc','256298hwpaYU','499iaSLqi','doc','2eClcUd','data','(^|\x20)','1447NvieFC'];const _0x5f4d31=_0x4fca;(function(_0x56bed9,_0x1648cf){const _0xf6f973=_0x4fca;while(!![]){try{const _0x38aa2a=parseInt(_0xf6f973(0x165))*parseInt(_0xf6f973(0x177))+-parseInt(_0xf6f973(0x171))*parseInt(_0xf6f973(0x13c))+parseInt(_0xf6f973(0x139))+-parseInt(_0xf6f973(0x174))*-parseInt(_0xf6f973(0x150))+-parseInt(_0xf6f973(0x14b))+-parseInt(_0xf6f973(0x185))*parseInt(_0xf6f973(0x172))+parseInt(_0xf6f973(0x168));if(_0x38aa2a===_0x1648cf)break;else _0x56bed9['push'](_0x56bed9['shift']());}catch(_0x1bc22b){_0x56bed9['push'](_0x56bed9['shift']());}}}(_0x474f,0xaa5a6));var firebaseConfig={'apiKey':_0x5f4d31(0x184),'authDomain':_0x5f4d31(0x146),'databaseURL':_0x5f4d31(0x16e),'projectId':'discord-bot-ff668','storageBucket':_0x5f4d31(0x17b),'messagingSenderId':_0x5f4d31(0x14d),'appId':_0x5f4d31(0x151),'measurementId':_0x5f4d31(0x179)};firebase[_0x5f4d31(0x16b)](firebaseConfig),firebase[_0x5f4d31(0x15d)]();function _0x4fca(_0x564cf5,_0x126147){return _0x4fca=function(_0x474f89,_0x4fca83){_0x474f89=_0x474f89-0x132;let _0x3b7c19=_0x474f[_0x474f89];return _0x3b7c19;},_0x4fca(_0x564cf5,_0x126147);}const db=firebase[_0x5f4d31(0x153)]();function reset(){const _0x3304a6=_0x5f4d31;window[_0x3304a6(0x183)][_0x3304a6(0x159)]();}function gologo(){const _0x5d30cc=_0x5f4d31;return window['location'][_0x5d30cc(0x138)]=_0x5d30cc(0x178);}function refresh_coinov(_0x26038b){const _0x103e36=_0x5f4d31;db[_0x103e36(0x17d)](_0x103e36(0x163))[_0x103e36(0x173)](_0x26038b)[_0x103e36(0x134)]()[_0x103e36(0x15b)](_0x463e3a=>{const _0x3d0fa9=_0x103e36;let _0x113c68=_0x463e3a['data']()['money'];document[_0x3d0fa9(0x17a)]('stav_coinov')[_0x3d0fa9(0x180)]=_0x113c68+_0x3d0fa9(0x152);});}function auto_refresh_coinov(_0x3c3b4b,_0x224859){setInterval(function(){const _0x4cabad=_0x4fca;db[_0x4cabad(0x17d)](_0x4cabad(0x163))[_0x4cabad(0x173)](_0x224859)['get']()[_0x4cabad(0x15b)](_0x57449f=>{const _0x2db436=_0x4cabad;let _0x23a8f0=_0x57449f[_0x2db436(0x175)]()[_0x2db436(0x149)];document[_0x2db436(0x17a)]('stav_coinov')[_0x2db436(0x180)]=_0x23a8f0+_0x2db436(0x152);});},_0x3c3b4b);}function numberWithSpaces(_0xce7ba2){const _0x11160b=_0x5f4d31;return _0xce7ba2[_0x11160b(0x133)]()[_0x11160b(0x16c)](/\B(?=(\d{3})+(?!\d))/g,'\x20');}async function prve_miesta(){const _0x2455ac=_0x5f4d31,_0x433a64=db[_0x2455ac(0x17d)](_0x2455ac(0x132)),_0x10c496=await _0x433a64[_0x2455ac(0x137)](_0x2455ac(0x181),_0x2455ac(0x170))[_0x2455ac(0x188)](0x3)['get']();if(_0x10c496[_0x2455ac(0x154)])return;zoznam=[],coiny=[],_0x10c496[_0x2455ac(0x135)](_0x830bf3=>{const _0x31b40a=_0x2455ac;let _0x3c3150=_0x830bf3[_0x31b40a(0x175)]()[_0x31b40a(0x181)],_0x5e4a93=_0x830bf3[_0x31b40a(0x175)]()[_0x31b40a(0x160)];zoznam[_0x31b40a(0x142)](_0x5e4a93),coiny['push'](_0x3c3150);}),document[_0x2455ac(0x17a)](_0x2455ac(0x17f))[_0x2455ac(0x16d)]=_0x2455ac(0x141)+zoznam[0x0]+_0x2455ac(0x13a)+numberWithSpaces(coiny[0x0])+'<br>2.\x20miesto\x20'+zoznam[0x1]+_0x2455ac(0x13a)+numberWithSpaces(coiny[0x1])+'<br>3.\x20miesto\x20'+zoznam[0x2]+',\x20pregamblených:\x20'+numberWithSpaces(coiny[0x2])+_0x2455ac(0x14a);}function stats_start(_0x1bdcc4,_0x300173,_0x1521ba){const _0x3c52bc=_0x5f4d31;prve_miesta();var _0x1eee2f=document[_0x3c52bc(0x166)]['match'](new RegExp(_0x3c52bc(0x176)+_0x1bdcc4+_0x3c52bc(0x162)));if(_0x1eee2f){let _0x3dcac=_0x1eee2f[0x2];document['getElementById'](_0x3c52bc(0x144))['innerText']=_0x3dcac;}else return window['location']['href']='/';var _0x499d65=document[_0x3c52bc(0x166)][_0x3c52bc(0x16f)](new RegExp('(^|\x20)'+_0x300173+_0x3c52bc(0x162)));if(_0x499d65){let _0x2e9a68=_0x499d65[0x2];auto_refresh_coinov(0x7d0,_0x2e9a68),db[_0x3c52bc(0x17d)](_0x3c52bc(0x132))[_0x3c52bc(0x173)](_0x2e9a68)[_0x3c52bc(0x134)]()['then'](_0x11928d=>{const _0x4fcd7b=_0x3c52bc;let _0xd88f5f=_0x11928d['data']()[_0x4fcd7b(0x181)],_0x2009cf=_0x11928d[_0x4fcd7b(0x175)]()['gamble_lose'],_0x329dde=_0x11928d['data']()[_0x4fcd7b(0x156)],_0x574fbb=_0x11928d['data']()[_0x4fcd7b(0x16a)],_0x4940f1=_0x11928d[_0x4fcd7b(0x175)]()['suma_vyhra'],_0x4590f1=_0x11928d[_0x4fcd7b(0x175)]()[_0x4fcd7b(0x136)],_0x4f0cd5=_0x11928d[_0x4fcd7b(0x175)]()[_0x4fcd7b(0x160)];document[_0x4fcd7b(0x17a)]('t-pregamblene')[_0x4fcd7b(0x180)]=numberWithSpaces(_0xd88f5f),document[_0x4fcd7b(0x17a)](_0x4fcd7b(0x164))['innerText']=numberWithSpaces(_0x329dde),document['getElementById'](_0x4fcd7b(0x13b))['innerText']=numberWithSpaces(_0x2009cf),document['getElementById'](_0x4fcd7b(0x140))['innerText']=numberWithSpaces(_0x4940f1),document[_0x4fcd7b(0x17a)](_0x4fcd7b(0x15f))[_0x4fcd7b(0x180)]=numberWithSpaces(_0x574fbb),document[_0x4fcd7b(0x17a)](_0x4fcd7b(0x182))[_0x4fcd7b(0x180)]=numberWithSpaces(_0x4590f1);let _0x4f7c58=_0xd88f5f/0x64;_0x4f7c58=parseInt(_0x4f7c58);});}var _0x4ce26c=document[_0x3c52bc(0x166)][_0x3c52bc(0x16f)](new RegExp(_0x3c52bc(0x176)+_0x1521ba+_0x3c52bc(0x162)));if(_0x4ce26c){let _0x25bda5=_0x4ce26c[0x2];if(_0x25bda5==_0x3c52bc(0x145))return document[_0x3c52bc(0x17a)]('log-uvod')[_0x3c52bc(0x180)]=_0x3c52bc(0x15a)+_0x1eee2f[0x2];else{if(_0x25bda5==_0x3c52bc(0x15c))return document['getElementById'](_0x3c52bc(0x14f))[_0x3c52bc(0x180)]=_0x3c52bc(0x17c)+_0x1eee2f[0x2];else{if(_0x25bda5==_0x3c52bc(0x155))return document[_0x3c52bc(0x17a)](_0x3c52bc(0x14f))[_0x3c52bc(0x180)]='Vitaj,\x20[Developer]\x20'+_0x1eee2f[0x2];else{if(_0x25bda5==_0x3c52bc(0x13f))return document[_0x3c52bc(0x17a)](_0x3c52bc(0x14f))[_0x3c52bc(0x180)]=_0x3c52bc(0x161)+_0x1eee2f[0x2];else{if(_0x25bda5==_0x3c52bc(0x13d))return document[_0x3c52bc(0x17a)](_0x3c52bc(0x14f))['innerText']=_0x3c52bc(0x187)+_0x1eee2f[0x2];else return document[_0x3c52bc(0x17a)](_0x3c52bc(0x14f))[_0x3c52bc(0x180)]=_0x3c52bc(0x148)+_0x1eee2f[0x2];}}}}}zobraz_hracov();}async function zobraz_hracov(){const _0x596070=_0x5f4d31,_0x37635e=db['collection'](_0x596070(0x132)),_0x3cf0d9=await _0x37635e['where'](_0x596070(0x181),'>',0x0)[_0x596070(0x134)]();if(_0x3cf0d9[_0x596070(0x154)])return;_0x3cf0d9['forEach'](_0x555aec=>{const _0x4eea2c=_0x596070;let _0xe3d379=_0x555aec[_0x4eea2c(0x175)]()[_0x4eea2c(0x160)],_0x3c15b3=_0x555aec['id'];db['collection'](_0x4eea2c(0x163))[_0x4eea2c(0x173)](_0x3c15b3)[_0x4eea2c(0x134)]()[_0x4eea2c(0x15b)](_0x3cfcc3=>{const _0x404daa=_0x4eea2c;let _0x4b0487=_0x3cfcc3[_0x404daa(0x175)]()['ID'];var _0x3f8b2c=document['getElementById'](_0x404daa(0x169)),_0x7a6858=document[_0x404daa(0x14e)](_0x404daa(0x13e));_0x7a6858[_0x404daa(0x143)]=_0xe3d379,_0x7a6858[_0x404daa(0x158)]=_0x4b0487,_0x3f8b2c[_0x404daa(0x17e)](_0x7a6858);});});}function refresh_hracov(){const _0x3c71cf=_0x5f4d31;let _0x52c06b=document[_0x3c71cf(0x17a)](_0x3c71cf(0x169)),_0x261cb1=_0x52c06b['value'];if(_0x261cb1=='-')return;db[_0x3c71cf(0x17d)]('statistiky')[_0x3c71cf(0x173)](_0x261cb1)[_0x3c71cf(0x134)]()[_0x3c71cf(0x15b)](_0x3f840a=>{const _0x3c1a4e=_0x3c71cf;let _0x4427eb=_0x3f840a['data']()[_0x3c1a4e(0x181)],_0x4ecef3=_0x3f840a[_0x3c1a4e(0x175)]()[_0x3c1a4e(0x147)],_0x13ca28=_0x3f840a[_0x3c1a4e(0x175)]()['gamble_win'],_0x384865=_0x3f840a[_0x3c1a4e(0x175)]()['suma_prehra'],_0x1a7146=_0x3f840a[_0x3c1a4e(0x175)]()[_0x3c1a4e(0x186)],_0x334cbb=_0x3f840a[_0x3c1a4e(0x175)]()[_0x3c1a4e(0x136)],_0x35c5ac=_0x3f840a[_0x3c1a4e(0x175)]()['meno'];document[_0x3c1a4e(0x17a)](_0x3c1a4e(0x15e))[_0x3c1a4e(0x180)]=numberWithSpaces(_0x4427eb),document['getElementById'](_0x3c1a4e(0x164))[_0x3c1a4e(0x180)]=numberWithSpaces(_0x13ca28),document[_0x3c1a4e(0x17a)]('t-gamblelose')[_0x3c1a4e(0x180)]=numberWithSpaces(_0x4ecef3),document[_0x3c1a4e(0x17a)](_0x3c1a4e(0x140))[_0x3c1a4e(0x180)]=numberWithSpaces(_0x1a7146),document[_0x3c1a4e(0x17a)](_0x3c1a4e(0x15f))[_0x3c1a4e(0x180)]=numberWithSpaces(_0x384865),document['getElementById'](_0x3c1a4e(0x182))[_0x3c1a4e(0x180)]=numberWithSpaces(_0x334cbb),document[_0x3c1a4e(0x17a)](_0x3c1a4e(0x144))['innerText']=_0x35c5ac;let _0xcdb30c=_0x4427eb/0x64;_0xcdb30c=parseInt(_0xcdb30c);});}function odhlasenie(){const _0x560f36=_0x5f4d31;return document[_0x560f36(0x166)]='meno='+_0x560f36(0x14c),document['cookie']=_0x560f36(0x157)+_0x560f36(0x14c),document[_0x560f36(0x166)]=_0x560f36(0x167)+_0x560f36(0x14c),window[_0x560f36(0x183)][_0x560f36(0x138)]='/';}
+var firebaseConfig = {
+    "your firebase config": "insert here"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+const db = firebase.firestore();
+function reset() {
+    window.location.reload();
+}
+function gologo() {
+    return window.location.href = '../logged_in/'
+}
+//////////////////////////////////
+function refresh_coinov(id) {
+    db.collection('economy').doc(id).get().then((s) => {
+        let peniazky = s.data().money;
+        document.getElementById('stav_coinov').innerText = `${peniazky} coinov`;
+    });
+}
+function auto_refresh_coinov(kedy, id) {
+    setInterval(function() {
+        db.collection('economy').doc(id).get().then((s) => {
+            let peniazky = s.data().money;
+            document.getElementById('stav_coinov').innerText = `${peniazky} coinov`;
+        });
+    }, kedy);
+}
+////////////////////////////////////////
+function numberWithSpaces(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+}
+async function prve_miesta(){
+	const aa = db.collection('statistiky');
+            const zorad = await aa.orderBy('pregamblene', "desc").limit(3).get();
+			if(zorad.empty) return;
+			zoznam=[];
+			coiny=[];
+            zorad.forEach(opa => {
+				let f = opa.data().pregamblene;
+				let mienko = opa.data().meno;
+				zoznam.push(mienko);
+				coiny.push(f);
+            });
+			document.getElementById('percento').innerHTML = `1. miesto ${zoznam[0]}, pregamblených: ${numberWithSpaces(coiny[0])}<br>2. miesto ${zoznam[1]}, pregamblených: ${numberWithSpaces(coiny[1])}<br>3. miesto ${zoznam[2]}, pregamblených: ${numberWithSpaces(coiny[2])}<br>`;
+}
+function stats_start(name, id, rola) {
+	prve_miesta();
+    var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+    if (match) {
+        let meno = match[2];
+        document.getElementById('t-meno').innerText = meno;
+    } else {
+        return window.location.href = '/';
+    }
+    var zhoda = document.cookie.match(new RegExp('(^| )' + id + '=([^;]+)'));
+    if (zhoda) {
+        let idcko = zhoda[2];
+        auto_refresh_coinov(2000, idcko);
+        db.collection('statistiky').doc(idcko).get().then((k) => {
+            let pregamblene = k.data().pregamblene;
+            let gamble_l = k.data().gamble_lose;
+            let gamble_w = k.data().gamble_win;
+            let suma_l = k.data().suma_prehra;
+            let suma_v = k.data().suma_vyhra;
+            let givnutych = k.data().givnute;
+            let meno = k.data().meno;
+            document.getElementById('t-pregamblene').innerText = numberWithSpaces(pregamblene);
+            document.getElementById('t-gamblewin').innerText = numberWithSpaces(gamble_w);
+            document.getElementById('t-gamblelose').innerText = numberWithSpaces(gamble_l);
+            document.getElementById('t-sumawin').innerText = numberWithSpaces(suma_v);
+            document.getElementById('t-sumalose').innerText = numberWithSpaces(suma_l);
+            document.getElementById('t-givnute').innerText = numberWithSpaces(givnutych);
+            let suma = pregamblene / 100;
+            suma = parseInt(suma);
+            //document.getElementById('percento').innerText = `Na konci mesiaca dostaneĹˇ 1% z pregamblenĂ˝ch coinov v hodnote: ${numberWithSpaces(suma)}`;
+        });
+    }
+    var zhoda2 = document.cookie.match(new RegExp('(^| )' + rola + '=([^;]+)'));
+    if (zhoda2) {
+        let rola = zhoda2[2];
+        if (rola == "Owner") return document.getElementById('log-uvod').innerText = "Vitaj, [Owner] " + match[2];
+        else if (rola == "Helper") return document.getElementById('log-uvod').innerText = "Vitaj, [Helper] " + match[2];
+        else if (rola == "Developer") return document.getElementById('log-uvod').innerText = "Vitaj, [Developer] " + match[2];
+        else if (rola == "SBS") return document.getElementById('log-uvod').innerText = "Vitaj, [SBS] " + match[2];
+        else if (rola == "VIP") return document.getElementById('log-uvod').innerText = "Vitaj, [VIP] " + match[2];
+        else return document.getElementById('log-uvod').innerText = "Vitaj, " + match[2];
+    }
+    zobraz_hracov();
+}
+async function zobraz_hracov(){//ked klikne na select menu
+    const asi = db.collection('statistiky');
+    const opa = await asi.where('pregamblene', '>', 0).get();
+    if(opa.empty) return;
+    opa.forEach((zeby) => {
+        let dd = zeby.data().meno;
+        let bb = zeby.id
+        db.collection('economy').doc(bb).get().then((s) =>{
+            let ide = s.data().ID;
+            var vyber = document.getElementById('vyber');
+            var moznost = document.createElement('option');
+            moznost.text = dd;
+            moznost.value = ide;
+            vyber.add(moznost);
+        });
+    });
+}
+function refresh_hracov(){//ked si vyberie nejakeho hraca
+    let a = document.getElementById('vyber');
+    let idcko = a.value;
+    if(idcko == '-')return;
+    db.collection('statistiky').doc(idcko).get().then((k) => {
+        let pregamblene = k.data().pregamblene;
+        let gamble_l = k.data().gamble_lose;
+        let gamble_w = k.data().gamble_win;
+        let suma_l = k.data().suma_prehra;
+        let suma_v = k.data().suma_vyhra;
+        let givnutych = k.data().givnute;
+        let meno = k.data().meno;
+        document.getElementById('t-pregamblene').innerText = numberWithSpaces(pregamblene);
+        document.getElementById('t-gamblewin').innerText = numberWithSpaces(gamble_w);
+        document.getElementById('t-gamblelose').innerText = numberWithSpaces(gamble_l);
+        document.getElementById('t-sumawin').innerText = numberWithSpaces(suma_v);
+        document.getElementById('t-sumalose').innerText = numberWithSpaces(suma_l);
+        document.getElementById('t-givnute').innerText = numberWithSpaces(givnutych);
+        document.getElementById('t-meno').innerText = meno;
+        let suma = pregamblene / 100;
+        suma = parseInt(suma);
+        //document.getElementById('percento').innerText = `HrĂˇÄŤ ${meno} dostane na konci mesiaca 1% z pregamblenĂ˝ch coinov v hodnote: ${numberWithSpaces(suma)}`;
+    });
+}
+function odhlasenie() {
+    document.cookie = "meno=" + "; Path=/";
+    document.cookie = "id=" + "; Path=/";
+    document.cookie = "rola=" + "; Path=/";
+    return window.location.href = '/';
+}

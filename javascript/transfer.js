@@ -1,1 +1,137 @@
-const _0x2b3d=['where','1:451808596458:web:4d20e27d03bb60c5f8e293','vymaz','Vitaj,\x20[Helper]\x20','rola=','reload','Vitaj,\x20','stav_coinov','update','Úspešne\x20si\x20previedol\x20','data','581521AZZhhd','get','economy','id=','add','875636ojIrVI','(^|\x20)','option','G-QQZTNGFGBG','log','log-uvod','24133mZwbrL','235400gLvUQV','empty','451808596458','938915GbXFgC','suma','forEach','Vitaj,\x20[VIP]\x20','block','selectedIndex','getElementById','text','=([^;]+)','test','innerText','daily','1311719tAZIQv','AIzaSyBWXBp6l1WVz9TSx7hUqFBybgmzT2ZeikQ','firestore','location','initializeApp','discord-bot-ff668','../logged_in/','\x20coinov','\x20coinov\x20užívateľovi\x20','180719hctIAG','vyber','collection','value','none','givnute','statistiky','Musíš\x20previesť\x20minimálne\x2020\x20coinov','money','display','doc','cookie','1hKoWHi','exists','href','meno','style','then','Vitaj,\x20[SBS]\x20','userAgent','Vitaj,\x20[Owner]\x20','SBS','match','discord-bot-ff668.appspot.com','Nezadal\x20si\x20komu\x20chceš\x20previesť\x20coiny',';\x20Path=/'];const _0x4f39e5=_0x2b53;(function(_0xfe7f77,_0x5af69f){const _0x233bf9=_0x2b53;while(!![]){try{const _0x4d3fa1=-parseInt(_0x233bf9(0x1d5))+-parseInt(_0x233bf9(0x1c9))+parseInt(_0x233bf9(0x1ed))+-parseInt(_0x233bf9(0x1ce))+parseInt(_0x233bf9(0x1b0))*parseInt(_0x233bf9(0x1d8))+-parseInt(_0x233bf9(0x1d4))+parseInt(_0x233bf9(0x1e4));if(_0x4d3fa1===_0x5af69f)break;else _0xfe7f77['push'](_0xfe7f77['shift']());}catch(_0x28b7b1){_0xfe7f77['push'](_0xfe7f77['shift']());}}}(_0x2b3d,0xae7a7));var firebaseConfig={'apiKey':_0x4f39e5(0x1e5),'authDomain':'discord-bot-ff668.firebaseapp.com','databaseURL':'https://discord-bot-ff668.firebaseio.com','projectId':_0x4f39e5(0x1e9),'storageBucket':_0x4f39e5(0x1bb),'messagingSenderId':_0x4f39e5(0x1d7),'appId':_0x4f39e5(0x1bf),'measurementId':_0x4f39e5(0x1d1)};firebase[_0x4f39e5(0x1e8)](firebaseConfig),firebase['analytics']();const db=firebase[_0x4f39e5(0x1e6)]();function reset(){const _0x329a45=_0x4f39e5;window[_0x329a45(0x1e7)][_0x329a45(0x1c3)]();}function gologo(){const _0x37049d=_0x4f39e5;return window[_0x37049d(0x1e7)][_0x37049d(0x1b2)]=_0x37049d(0x1ea);}function refresh_coinov(_0x1e3fba){const _0x40aaa9=_0x4f39e5;db[_0x40aaa9(0x1ef)](_0x40aaa9(0x1cb))[_0x40aaa9(0x1ae)](_0x1e3fba)[_0x40aaa9(0x1ca)]()[_0x40aaa9(0x1b5)](_0xfc9e71=>{const _0x5b592e=_0x40aaa9;let _0x46b4fb=_0xfc9e71[_0x5b592e(0x1c8)]()[_0x5b592e(0x1ac)];document[_0x5b592e(0x1de)]('stav_coinov')[_0x5b592e(0x1e2)]=_0x46b4fb+_0x5b592e(0x1eb);});}function auto_refresh_coinov(_0x2f4761,_0x36892d){setInterval(function(){const _0x96f99f=_0x2b53;db[_0x96f99f(0x1ef)](_0x96f99f(0x1cb))[_0x96f99f(0x1ae)](_0x36892d)[_0x96f99f(0x1ca)]()[_0x96f99f(0x1b5)](_0x5cc4ec=>{const _0xf0767d=_0x96f99f;let _0x1a1e57=_0x5cc4ec[_0xf0767d(0x1c8)]()[_0xf0767d(0x1ac)];document[_0xf0767d(0x1de)](_0xf0767d(0x1c5))[_0xf0767d(0x1e2)]=_0x1a1e57+_0xf0767d(0x1eb);});},_0x2f4761);}function tra_start(_0x29db8b,_0x2c3a33,_0x1bc30c){const _0x3bd17e=_0x4f39e5;var _0x59b29a=document[_0x3bd17e(0x1af)][_0x3bd17e(0x1ba)](new RegExp('(^|\x20)'+_0x29db8b+'=([^;]+)'));if(_0x59b29a){let _0x49a4d3=_0x59b29a[0x2];}else return window[_0x3bd17e(0x1e7)][_0x3bd17e(0x1b2)]='/';var _0x3c3e95=document[_0x3bd17e(0x1af)][_0x3bd17e(0x1ba)](new RegExp(_0x3bd17e(0x1cf)+_0x2c3a33+'=([^;]+)'));if(_0x3c3e95){let _0x1feee4=_0x3c3e95[0x2];auto_refresh_coinov(0x7d0,_0x1feee4);}var _0x38d8b3=document[_0x3bd17e(0x1af)]['match'](new RegExp(_0x3bd17e(0x1cf)+_0x1bc30c+'=([^;]+)'));if(_0x38d8b3){let _0x39109d=_0x38d8b3[0x2];if(_0x39109d=='Owner')return document['getElementById'](_0x3bd17e(0x1d3))[_0x3bd17e(0x1e2)]=_0x3bd17e(0x1b8)+_0x59b29a[0x2];else{if(_0x39109d=='Helper')return document[_0x3bd17e(0x1de)]('log-uvod')[_0x3bd17e(0x1e2)]=_0x3bd17e(0x1c1)+_0x59b29a[0x2];else{if(_0x39109d=='Developer')return document['getElementById'](_0x3bd17e(0x1d3))[_0x3bd17e(0x1e2)]='Vitaj,\x20[Developer]\x20'+_0x59b29a[0x2];else{if(_0x39109d==_0x3bd17e(0x1b9))return document[_0x3bd17e(0x1de)](_0x3bd17e(0x1d3))[_0x3bd17e(0x1e2)]=_0x3bd17e(0x1b6)+_0x59b29a[0x2];else{if(_0x39109d=='VIP')return document[_0x3bd17e(0x1de)]('log-uvod')[_0x3bd17e(0x1e2)]=_0x3bd17e(0x1db)+_0x59b29a[0x2];else return document[_0x3bd17e(0x1de)](_0x3bd17e(0x1d3))['innerText']=_0x3bd17e(0x1c4)+_0x59b29a[0x2];}}}}}}function _0x2b53(_0x3bebe6,_0x389b31){return _0x2b53=function(_0x2b3df7,_0x2b5370){_0x2b3df7=_0x2b3df7-0x1a8;let _0xf39fdb=_0x2b3d[_0x2b3df7];return _0xf39fdb;},_0x2b53(_0x3bebe6,_0x389b31);}async function zobraz_hracov(_0x1e13e1){const _0x71de04=_0x4f39e5;var _0x48368d=document[_0x71de04(0x1de)](_0x71de04(0x1c0));const _0x3bb830=db['collection'](_0x71de04(0x1cb)),_0x68f9d7=await _0x3bb830[_0x71de04(0x1be)](_0x71de04(0x1e3),'>',0x0)['get']();if(_0x68f9d7[_0x71de04(0x1d6)])return;_0x68f9d7[_0x71de04(0x1da)](_0x3cccee=>{const _0x20973a=_0x71de04;let _0x2dead2=_0x3cccee[_0x20973a(0x1c8)]()[_0x20973a(0x1b3)],_0x8c65bb=_0x3cccee['data']()['ID'];var _0x4edb99=document[_0x20973a(0x1de)](_0x20973a(0x1ee)),_0x218c9f=document['createElement'](_0x20973a(0x1d0)),_0x56bfdf=document[_0x20973a(0x1af)][_0x20973a(0x1ba)](new RegExp(_0x20973a(0x1cf)+_0x1e13e1+_0x20973a(0x1e0)));let _0x41bbcb=_0x56bfdf[0x2];if(_0x2dead2==_0x41bbcb)return;_0x218c9f[_0x20973a(0x1df)]=_0x2dead2,_0x218c9f[_0x20973a(0x1f0)]=_0x8c65bb,_0x4edb99[_0x20973a(0x1cd)](_0x218c9f);});}function transfer(_0x9d6384,_0x3716cf){const _0x3ee09d=_0x4f39e5;var _0x12ae6a=document[_0x3ee09d(0x1af)][_0x3ee09d(0x1ba)](new RegExp(_0x3ee09d(0x1cf)+_0x9d6384+_0x3ee09d(0x1e0))),_0x2f3531=document['cookie']['match'](new RegExp(_0x3ee09d(0x1cf)+_0x3716cf+_0x3ee09d(0x1e0)));let _0x2c725c=_0x2f3531[0x2];if(_0x12ae6a){let _0x502085=_0x12ae6a[0x2];db[_0x3ee09d(0x1ef)](_0x3ee09d(0x1cb))[_0x3ee09d(0x1ae)](_0x2c725c)[_0x3ee09d(0x1ca)]()[_0x3ee09d(0x1b5)](_0x220234=>{const _0x15cbb0=_0x3ee09d;if(_0x220234[_0x15cbb0(0x1b1)]){var _0x21a4a8=_0x220234[_0x15cbb0(0x1c8)]()['money'];document[_0x15cbb0(0x1de)](_0x15cbb0(0x1d9))['max']=_0x21a4a8;let _0x18ecab=parseInt(document[_0x15cbb0(0x1de)](_0x15cbb0(0x1d9))[_0x15cbb0(0x1f0)]);if(document[_0x15cbb0(0x1de)](_0x15cbb0(0x1ee))[_0x15cbb0(0x1f0)]=='-')return alert(_0x15cbb0(0x1bc));if(_0x18ecab<0x14||_0x18ecab==0x0||isNaN(_0x18ecab))return alert(_0x15cbb0(0x1ab));let _0x2511ad=document[_0x15cbb0(0x1de)](_0x15cbb0(0x1ee))['value'],_0x52f4be=document[_0x15cbb0(0x1de)]('vyber'),_0x48f077=_0x52f4be['options'][_0x52f4be[_0x15cbb0(0x1dd)]][_0x15cbb0(0x1df)];db[_0x15cbb0(0x1ef)](_0x15cbb0(0x1cb))[_0x15cbb0(0x1ae)](_0x2511ad)[_0x15cbb0(0x1ca)]()['then'](_0x4c874a=>{const _0x4fa7d7=_0x15cbb0;if(!_0x4c874a[_0x4fa7d7(0x1b1)])return alert('Nastala\x20chyba');else{if(_0x18ecab>_0x21a4a8)return alert('Nemáš\x20toľko\x20coinov\x20na\x20prevedenie');db[_0x4fa7d7(0x1ef)](_0x4fa7d7(0x1aa))[_0x4fa7d7(0x1ae)](_0x2c725c)[_0x4fa7d7(0x1ca)]()['then'](_0x237784=>{const _0x4a27a0=_0x4fa7d7;let _0x15ce7b=_0x237784['data']()[_0x4a27a0(0x1a9)];_0x15ce7b+=_0x18ecab,db['collection'](_0x4a27a0(0x1aa))['doc'](_0x2c725c)[_0x4a27a0(0x1c6)]({'givnute':_0x15ce7b});var _0x3576e2=_0x4c874a[_0x4a27a0(0x1c8)]()[_0x4a27a0(0x1ac)];return _0x3576e2+=_0x18ecab,db['collection'](_0x4a27a0(0x1cb))[_0x4a27a0(0x1ae)](_0x2511ad)[_0x4a27a0(0x1c6)]({'money':_0x3576e2}),_0x21a4a8-=_0x18ecab,db['collection'](_0x4a27a0(0x1cb))['doc'](_0x2c725c)[_0x4a27a0(0x1c6)]({'money':_0x21a4a8}),alert(_0x4a27a0(0x1c7)+_0x18ecab+_0x4a27a0(0x1ec)+_0x48f077);});}});}else console[_0x15cbb0(0x1d2)]('rip\x20v\x20transfer\x20line\x20117');});}}function skry_footer(){const _0x177f10=_0x4f39e5;if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i[_0x177f10(0x1e1)](navigator[_0x177f10(0x1b7)]))return document['getElementById']('futrik')[_0x177f10(0x1b4)][_0x177f10(0x1ad)]=_0x177f10(0x1a8);else return;}function ukaz_footer(){const _0x3bc304=_0x4f39e5;if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i[_0x3bc304(0x1e1)](navigator[_0x3bc304(0x1b7)]))return document[_0x3bc304(0x1de)]('futrik')['style'][_0x3bc304(0x1ad)]=_0x3bc304(0x1dc);else return;}function odhlasenie(){const _0x2ba069=_0x4f39e5;return document[_0x2ba069(0x1af)]='meno='+_0x2ba069(0x1bd),document['cookie']=_0x2ba069(0x1cc)+';\x20Path=/',document[_0x2ba069(0x1af)]=_0x2ba069(0x1c2)+_0x2ba069(0x1bd),window[_0x2ba069(0x1e7)][_0x2ba069(0x1b2)]='/';}
+var firebaseConfig = {
+    "your firebase config": "insert here"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+const db = firebase.firestore();
+///////////////////////////////////////////////
+function reset() {
+    window.location.reload();
+}
+function gologo() {
+    return window.location.href = '../logged_in/'
+}
+////////////////////////////
+function refresh_coinov(id) {
+    db.collection('economy').doc(id).get().then((s) => {
+        let peniazky = s.data().money;
+        document.getElementById('stav_coinov').innerText = `${peniazky} coinov`;
+    });
+}
+function auto_refresh_coinov(kedy, id) {
+    setInterval(function() {
+        db.collection('economy').doc(id).get().then((s) => {
+            let peniazky = s.data().money;
+            document.getElementById('stav_coinov').innerText = `${peniazky} coinov`;
+        });
+    }, kedy);
+}
+///////////////
+function tra_start(name, id, rola) {
+    var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+    if (match) {
+        let meno = match[2];
+    } else {
+        return window.location.href = '/';
+    }
+    var zhoda = document.cookie.match(new RegExp('(^| )' + id + '=([^;]+)'));
+    if (zhoda) {
+        let idcko = zhoda[2];
+        auto_refresh_coinov(2000, idcko);
+    }
+    var zhoda2 = document.cookie.match(new RegExp('(^| )' + rola + '=([^;]+)'));
+    if (zhoda2) {
+        let rola = zhoda2[2];
+        if (rola == "Owner") return document.getElementById('log-uvod').innerText = "Vitaj, [Owner] " + match[2];
+        else if (rola == "Helper") return document.getElementById('log-uvod').innerText = "Vitaj, [Helper] " + match[2];
+        else if (rola == "Developer") return document.getElementById('log-uvod').innerText = "Vitaj, [Developer] " + match[2];
+        else if (rola == "SBS") return document.getElementById('log-uvod').innerText = "Vitaj, [SBS] " + match[2];
+        else if (rola == "VIP") return document.getElementById('log-uvod').innerText = "Vitaj, [VIP] " + match[2];
+        else return document.getElementById('log-uvod').innerText = "Vitaj, " + match[2];
+    }
+}
+async function zobraz_hracov(name){
+    var vymaz = document.getElementById('vymaz');
+    const asi = db.collection('economy');
+    const opa = await asi.where('daily', '>', 0).get();
+    if(opa.empty) return;
+    opa.forEach((zeby) => {
+        let bb = zeby.data().meno;
+        let cc = zeby.data().ID;
+        var vyber = document.getElementById('vyber');
+        var moznost = document.createElement('option');
+        var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+        let meno = match[2];
+        if(bb == meno) return;
+        moznost.text = bb;
+        moznost.value = cc;
+        vyber.add(moznost);
+    });
+}
+function transfer(name, id){
+    var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+    var zhoda = document.cookie.match(new RegExp('(^| )' + id + '=([^;]+)'));
+    let idcko = zhoda[2];//moje id
+    if (match) {
+        let meno = match[2];
+        db.collection('economy').doc(idcko).get().then((q) => {
+            if(q.exists){
+                var hodnota = q.data().money;
+                document.getElementById('suma').max = hodnota;
+                let zadana_suma = parseInt(document.getElementById('suma').value);
+                if(document.getElementById('vyber').value == '-') return alert("Nezadal si komu chceš previesť coiny");
+                if(zadana_suma < 20 || zadana_suma == 0 || isNaN(zadana_suma)) return alert("Musíš previesť minimálne 20 coinov");
+                let komu = document.getElementById('vyber').value;
+                let selektor = document.getElementById('vyber');
+                let komu_meno = selektor.options[selektor.selectedIndex].text;
+                db.collection('economy').doc(komu).get().then((g) => {
+                    if(!g.exists){
+                        return alert("Nastala chyba");
+                    } else{
+                        if(zadana_suma > hodnota) return alert("Nemáš toľko coinov na prevedenie");
+                        db.collection('statistiky').doc(idcko).get().then((uj) => {
+                            let suma = uj.data().givnute;
+                            suma += zadana_suma;
+                            db.collection('statistiky').doc(idcko).update({
+                                'givnute': suma
+                            });
+                            var peniazky = g.data().money;
+                            peniazky += zadana_suma;
+                            db.collection('economy').doc(komu).update({
+                                'money': peniazky
+                            });
+                            hodnota -= zadana_suma;
+                            db.collection('economy').doc(idcko).update({
+                                'money': hodnota
+                            });
+                            return alert(`Úspešne si previedol ${zadana_suma} coinov užívateľovi ${komu_meno}`);
+                        });
+                    }
+                });
+            }else{
+                console.log("rip v transfer line 117");
+            }
+        });
+    }
+}
+function skry_footer(){
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+        return document.getElementById('futrik').style.display = "none";
+    }else{
+        return;
+    }
+}
+function ukaz_footer(){
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+        return document.getElementById('futrik').style.display = "block";
+    }else{
+        return;
+    }
+}
+function odhlasenie() {
+    document.cookie = "meno=" + "; Path=/";
+    document.cookie = "id=" + "; Path=/";
+    document.cookie = "rola=" + "; Path=/";
+    return window.location.href = '/';
+}
