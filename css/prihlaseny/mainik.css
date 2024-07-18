@@ -1,0 +1,117 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        background: black;
+        align-items: center;
+    }
+    
+    header img {
+        margin-left: 0.5%;
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+        cursor: pointer;
+    }
+    
+    .rola {
+        font-size: 24px;
+        color: white;
+    }
+    
+    .coiny {
+        color: white;
+        font-size: 24px;
+        padding-left: 45%;
+    }
+    /* .log-out {
+        padding-right: 15px;
+        text-decoration: none;
+        color: white;
+        font-size: 32px;
+    } */
+    
+    .log-out_odkaz a {
+        font-size: 34px;
+    }
+    
+    .log-out {
+        margin-right: 80px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .hide {
+        display: none;
+        font-size: 18px;
+    }
+    
+    .log-out:hover+.hide {
+        display: block;
+        color: white;
+    }
+    
+    .odkazy {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .odkazy a {
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+    }
+    
+    .odkazy a:hover {
+        transition: 1s;
+        color: yellow;
+    }
+    .novinka{
+        font-size:25px;
+        display:flex;
+        justify-content: center;
+    }
+    .novinka-uvodny-text{
+        color: orange;
+    }
+    
+    @media screen and (max-width: 1000px) {
+        header {
+            display: flex;
+            flex-direction: column;
+        }
+        header img {
+            width: 20%;
+            height: 82%;
+        }
+        .coiny {
+            margin-left: -45%;
+            font-size: 18px;
+            padding-top: 15px;
+        }
+        .rola {
+            font-size: 18px;
+            padding-top: 15px;
+        }
+        .log-out {
+            font-size: 20px;
+            padding-top: 15px;
+            padding-bottom: 10px;
+            margin-left: 80px;
+        }
+        .log-out:hover+.hide {
+            display: none;
+        }
+        .novinka{
+            display: none;
+        }
+    }

@@ -1,0 +1,134 @@
+html {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+th {
+    text-align: start;
+    /* background-color: rgba(207, 207, 207, 0.24); */
+}
+
+th,
+td {
+    padding: 5px 10px 5px 10px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+.mainstats {
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 50px;
+}
+
+#labeltext {
+    cursor: pointer;
+    font-size: 23px;
+}
+
+caption {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.steam-ucet {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 10px;
+}
+
+.steam-meno {
+    margin-left: 2%;
+}
+
+.id-url {
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.steam-ucet-udaje {
+    width: 100%;
+}
+.fa-angle-double-down{
+    transition: transform 0.5s ease-in-out;
+}
+@media screen and (max-width: 980px) {
+    .mainstats {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    /* .csgo_stats {
+        background-image: url("data:image/jpeg;base64,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");
+        border: 1px solid black;
+        margin: 40px 50px 30px 50px;
+        cursor: pointer;
+        box-sizing: border-box;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .csgo_stats p {
+        padding: 80px 40px 80px 40px;
+        text-align: center;
+        color: white;
+        font-size: 28px;
+    } */
+    .mainstats {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .steam-meno {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .banner_title {
+        font-size: 35px;
+    }
+    .fa-arrow-alt-circle-down {
+        font-size: 28px;
+    }
+    .mainstats {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 30px;
+    }
+    .steam-meno {
+        font-size: 24px;
+        margin-left: 0;
+    }
+    .id-url {
+        margin-left: 0%;
+    }
+    .steam-URL {
+        overflow-wrap: break-word;
+    }
+    .steam-ucet {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .steam-ucet img {
+        width: 20%;
+    }
+}

@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    margin-top: 15px;
+    background-color: black;
+}
+
+.footer-main {
+    display: flex;
+    padding-top: 1%;
+}
+
+.lava {
+    width: 30%;
+    text-align: center;
+}
+
+.stred {
+    width: 40%;
+    text-align: center;
+}
+
+.prava {
+    width: 30%;
+    text-align: center;
+}
+
+.prava a {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+
+.nadpis {
+    color: white;
+}
+
+.hl_nadpis {
+    color: white;
+    display: inline-block;
+    border-left: 3px solid transparent;
+    border-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.144) 90%);
+    border-image-slice: 1;
+    padding-left: 5px
+}
+
+.siete {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    font-size: 20px;
+}
+
+.siete a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-discord,
+.fa-steam {
+    color: white;
+    font-size: 22px;
+}
+
+.fa-steam {
+    margin-top: 10px;
+}
+
+
+/* Formulár */
+
+.meno-dovod {
+    display: flex;
+    justify-content: center;
+}
+
+.dovod {
+    margin-left: 10px;
+}
+
+.contact-input-nazov {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.contact input,
+select,
+textarea {
+    padding: 5px;
+    outline: none;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+
+textarea {
+    height: 4em;
+    transition: 0.3s;
+}
+
+textarea:focus {
+    height: 8em;
+    transition: 0.3s;
+}
+
+.send-btn {
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.volitelne {
+    margin-left: 3px;
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+.copy {
+    margin-top: 30px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+}
+
+.linky a:hover {
+    color: yellow;
+    transition: 0.3s;
+}
+
+
+/*css pre alerty*/
+
+.alert-success {
+    z-index: 1;
+    background: #D4EDDA;
+    font-size: 18px;
+    padding: 20px 40px;
+    min-width: 420px;
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+    border-left: 8px solid #3AD66E;
+    border-radius: 4px;
+    -webkit-animation: success 4s forwards;
+    animation: success 4s forwards;
+    user-select: none;
+}
+
+@keyframes success {
+    0% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes success {
+    0% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.alert-error {
+    z-index: 1;
+    background: #FFF3CD;
+    font-size: 18px;
+    padding: 20px 40px;
+    min-width: 420px;
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+    border-left: 8px solid #FFA502;
+    border-radius: 4px;
+    -webkit-animation: error 4s forwards;
+    animation: error 4s forwards;
+    user-select: none;
+}
+
+@keyframes error {
+    0% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes error {
+    0% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .lava {
+        width: 35%;
+        text-align: center;
+    }
+    .stred {
+        width: 30%;
+        text-align: center;
+    }
+    .prava {
+        width: 35%;
+        text-align: center;
+    }
+    textarea {
+        width: 90%;
+    }
+    .meno-dovod {
+        display: flex;
+        flex-direction: column;
+    }
+    .dovod {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+    select {
+        width: 170.8px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .hl_nadpis {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    .nadpis {
+        color: white;
+        margin-top: 25px;
+    }
+    .lava {
+        width: 100%;
+        text-align: center;
+    }
+    .stred {
+        width: 100%;
+    }
+    .prava {
+        display: none;
+    }
+    .footer-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .siete {
+        margin-top: 24px;
+        font-size: 18px;
+    }
+    .alert-success {
+        font-size: 16px;
+        padding: 15px 25px;
+        min-width: 220px;
+        border-left: 6px solid #3AD66E;
+    }
+    .alert-error {
+        font-size: 16px;
+        padding: 15px 25px;
+        min-width: 220px;
+        border-left: 8px solid #FFA502;
+    }
+    textarea {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .hl_nadpis {
+        font-size: 22px;
+    }
+    .siete {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .fa-discord,
+    .fa-steam {
+        color: white;
+        font-size: 20px;
+    }
+    .meno-dovod {
+        display: flex;
+        flex-direction: column;
+    }
+    .dovod {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+    textarea {
+        width: 60%;
+    }
+    textarea:focus {
+        height: 6em;
+    }
+    .alert-success {
+        font-size: 14px;
+        padding: 12px 22px;
+        min-width: 200px;
+        border-left: 4px solid #3AD66E;
+    }
+    .alert-error {
+        font-size: 14px;
+        padding: 12px 22px;
+        min-width: 200px;
+        border-left: 4px solid #FFA502;
+    }
+}

@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F3EFEF;
+}
+
+.main {
+    border: 1px #F3EFEF solid;
+    background-color: white;
+    margin: 5% 20% 5% 20%;
+    box-shadow: 5px 5px 100px gray;
+    border-radius: 7px;
+}
+
+.top {
+    display: flex;
+    position: relative;
+}
+
+.top .user_info {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}
+
+#name {
+    font-size: xx-large;
+}
+
+#userid {
+    margin-top: 10%;
+    font-size: large;
+}
+
+.top img {
+    border-radius: 50%;
+    border: 5px #F3EFEF solid;
+    width: 128px;
+}
+
+.top .photo {
+    margin: 2%;
+}
+
+.title {
+    border-bottom: 1px solid #F3EFEF;
+    width: 100%;
+}
+
+.account {
+    margin: 0% 0% 2% 3%;
+    font-size: x-large;
+}
+
+.data {
+    margin: 2%;
+}
+
+.space {
+    margin: 2%;
+}
+
+.username,
+.password,
+.trade_url,
+.color-name,
+.vip {
+    display: flex;
+    position: relative;
+}
+
+.value {
+    position: absolute;
+    left: 50%;
+    display: flex;
+}
+
+.input {
+    height: 20px;
+}
+
+.edit {
+    cursor: pointer;
+    margin-left: 5%;
+    font-size: 17px;
+}
+
+.VIP_stav {
+    margin: 1%;
+}
+
+.VIP {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        margin: 0px;
+    }
+    .value{
+        left: 35%;
+    }
+    .top img{
+        width: 120px;
+    }
+}

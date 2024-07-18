@@ -1,0 +1,79 @@
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    height: 6%;
+    width: 100%;
+}
+footer .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1%;
+    cursor: pointer;
+    position: relative;
+}
+
+footer .copyright{
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+    transform: translate(50%,0%);
+}
+footer .author{
+    position: absolute;
+    bottom: 10%;
+    right: 1%;
+    font-size:small;
+}
+.steam, .discord{
+    position: relative;
+}
+  
+.logout a:after, .steam:after, .discord:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.logout a:hover:after, .steam:hover:after, .discord:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+@media only screen and (max-width: 600px) {
+    footer{
+        flex-direction: column;
+        height: auto;
+        display: flex;
+        text-align: center;
+    }
+    footer div{
+        padding: 1%;
+    }
+    footer .links{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .author{
+        position: relative;
+        font-size:medium;
+    }
+    footer .copyright{
+        position: relative;
+        font-size:medium;
+        padding-bottom: 3%;
+    }
+    .logout a:after, .steam:after, .discord:after {
+        width: 0;
+    }
+
+}

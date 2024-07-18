@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+header{
+    background-color: #3b5998;
+    padding: 1.5%;
+    display: flex;
+}
+.links{
+    position: relative;
+    width: 100%;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size:larger;
+    padding: 1%;
+    margin-left: 3%;
+}
+.invite{
+    float: right;
+}
+.links .invite:hover{
+    background-color: rgb(70, 182, 219);
+}
+.links a:hover{
+    background-color: #293e6a;
+    border-radius: 10px;
+}
+.main-title{
+    display: flex;
+    color: white;
+    background-color: #639bf1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+}
+.main-text a{
+    text-decoration: none;
+    color: black;
+    
+}
+.main-text{
+    width: 100%;
+    text-align: center;
+}
+
+.text{
+    padding: 5%;
+}
+.get-started{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: 1px solid #639bf1;
+    width: 180px;
+    border-radius: 5px;
+    height: 60px;
+    font-size: 20px;
+}
+.get-started:hover{
+    color: white;
+    background-color: #293e6a;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #639bf1;
+    text-align: center;
+}
+img:hover{
+    cursor: pointer;
+}

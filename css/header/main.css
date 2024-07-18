@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+    font-family: Verdana, sans-serif;
+}
+
+/* HEADER */
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    position: relative;
+}
+header img{
+    padding: 1%;
+    cursor: pointer;
+}
+header .meno, header .coiny, header .logout{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+header .meno{
+    left: 13%;
+    font-size: x-large;
+}
+header .coiny{
+    left: 70%;
+    font-size: x-large;
+}
+header .logout{
+    left: 90%;
+    font-size: x-large;
+}
+header .logout a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    header{
+        display: flex;
+    }
+    header .container{
+        width: 100%;
+    }
+    header .meno, header .coiny,header .logout{
+        position: relative;
+        left: 0;
+        text-align: center;
+        padding: 1%;
+        top: 0;
+        transform: translate(0,0);
+    }
+    header img {
+        padding: 3%;
+        position: absolute;
+    }
+    header .meno{
+        font-size: large;
+    }
+    header .coiny{
+        font-size: large;
+    }
+    header .logout{
+        font-size: large;
+    }
+
+}

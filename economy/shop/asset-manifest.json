@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/economy/shop/static/css/main.873fc2fb.css",
+    "main.js": "/economy/shop/static/js/main.095ac5eb.js",
+    "static/media/sk_logov2.png": "/economy/shop/static/media/sk_logov2.f1db27361db211542b1a.png",
+    "index.html": "/economy/shop/index.html",
+    "main.873fc2fb.css.map": "/economy/shop/static/css/main.873fc2fb.css.map",
+    "main.095ac5eb.js.map": "/economy/shop/static/js/main.095ac5eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.873fc2fb.css",
+    "static/js/main.095ac5eb.js"
+  ]
+}

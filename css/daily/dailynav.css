@@ -1,0 +1,169 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    align-items: center;
+}
+
+header img {
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    cursor: pointer;
+}
+
+nav {
+    position: sticky;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+nav a {
+    margin: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav a:hover {
+    transition: 1s;
+    color: yellow;
+}
+
+.rola {
+    font-size: 24px;
+    color: white;
+}
+
+.coiny {
+    color: white;
+    font-size: 24px;
+    padding-left: 45%;
+}
+
+.log-out {
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-links li {
+    list-style: none
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1000px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    .nav-links {
+        position: absolute;
+        height: 102vh;
+        width: 100%;
+        top: -170px;
+        background-color: rgba(31, 30, 30, 0.925);
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        transform: translate(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li {
+        margin-top: 30px;
+    }
+    .burger {
+        display: block;
+        margin-left: 90%;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    header img {
+        width: 20%;
+        height: 82%;
+    }
+    .coiny {
+        margin-left: -45%;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    .rola {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    .log-out {
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+    .rola {
+        margin-left: 5%;
+        font-size: 20px;
+    }
+    .coiny {
+        margin-right: 10%;
+    }
+    .log-out {
+        margin-right: 2%;
+    }
+}
+
+.nav-active {
+    /* zobrazenie navigacnej listy na mobile */
+    transform: translateX(0%);
+}
+
+
+/* zobrazenie odkazov v navigacnej liste na mobile */
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+/* animácia burgru na X */
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 5px)
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -5px)
+}

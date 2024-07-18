@@ -1,0 +1,102 @@
+.hl-nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.hl-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+}
+
+.sk_logo {
+    margin: 15px 0px 15px 80px;
+    cursor: pointer;
+    width: 4%;
+}
+
+.sk_logo_text {
+    margin-left: 15px;
+    cursor: pointer;
+    width: 8%;
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+}
+
+.login_odkaz a {
+    font-size: 34px;
+}
+
+.login {
+    margin-right: 80px;
+    color: white;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+    font-size: 20px;
+}
+
+.login:hover+.hide {
+    display: block;
+    color: white;
+}
+
+@media screen and (max-width: 756px) {
+    .hl-nav {
+        padding: 10px 0 10px 0;
+    }
+    .hl-nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+    }
+    .sk_logo {
+        margin: 15px 0px 15px 50px;
+        width: 5%;
+    }
+    .sk_logo_text {
+        margin-left: 10px;
+        width: 9%;
+    }
+    .login_odkaz a {
+        font-size: 26px;
+    }
+    .login:hover+.hide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hl-nav {
+        padding: 10px 0 10px 0;
+    }
+    .hl-nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        display: block;
+    }
+    .sk_logo {
+        margin: 15px 0px 15px 20px;
+        width: 7%;
+    }
+    .sk_logo_text {
+        margin-left: 8px;
+        width: 12%;
+    }
+    .login {
+        margin-right: 20px;
+    }
+    .login_odkaz a {
+        font-size: 24px;
+    }
+}

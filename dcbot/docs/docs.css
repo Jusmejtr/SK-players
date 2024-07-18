@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    overflow: hidden;
+}
+header{
+    background-color: #3b5998;
+    padding: 1.5%;
+    display: flex;
+}
+.logo{
+    cursor: pointer;
+}
+.links{
+    position: relative;
+    width: 100%;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size:larger;
+    padding: 1%;
+    margin-left: 3%;
+}
+.invite{
+    float: right;
+}
+.links .invite:hover{
+    background-color: rgb(70, 182, 219);
+}
+.links a:hover{
+    background-color: #293e6a;
+    border-radius: 10px;
+}
+/* MAIN */
+.main{
+    display: flex;
+}
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px blue; 
+    /* border-radius: 10px; */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3b5998; 
+    /* border-radius: 10px; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #293e6a; 
+}
+
+/* NAV */
+nav{
+    width: 15%;
+    margin-left: 1.5%;
+    overflow: auto;
+}
+nav .container{
+    margin-top: 10%;
+}
+.nav-title{
+    display: flex;
+    cursor: pointer;
+}
+.nazov{
+    font-size: large;
+    margin-left: 3%;
+}
+.fa-arrow-down{
+    font-size: x-large;
+    /* transition: ease-in 0.5s; */
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+.box a{
+    text-decoration: none;
+    color: black;
+    margin-top: 6%;
+    padding: 10px;
+    width: auto;
+    justify-content: center;
+}
+.box a:hover{
+    /* border-left: 4px solid #0950b9; */
+    /* border-radius: 4px; */
+}
+/* CONTEXT */
+.context{
+    /* background-color: green; */
+    width: 85%;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.context-title{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    /* background-color: rgb(70, 182, 219); */
+    padding-bottom: 3%;
+    padding-top: 3%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(59, 89, 152)), to(rgba(255, 255, 255,1)), color-stop(70,#fff));
+    /* background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(59, 89, 152)), to(rgba(255, 255, 255,1)), color-stop(70,#fff)); */
+}
+.context a{
+    text-decoration: none;
+    color: blue;
+}
+.context a:hover{
+    text-decoration: underline;
+}
+.context-subtitle{
+    color: black;
+    font-size: xx-large;
+    border-bottom: 2px solid rgb(70, 182, 219);
+    margin: 2%;
+}
+br{
+    display: block;
+    content: "";
+    margin-top: 10px;
+}
+.tags{
+    font-size: xx-large;
+    margin-top: 2%;
+}
+.context-text{
+    margin: 2%;
+    font-size: larger;
+}
+.context-nav-title{
+    font-size: x-large;
+    border-bottom: 2px solid green;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+}
+.context-nav-text{
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+ul li{
+    margin-top: 1%;
+}
+/* TAG */
+.tag{
+    display: flex;
+    position: relative;
+    margin: 2%;
+}
+.tag-text{
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+.cube{
+    width: 150px;
+    height: 50px;
+}
+.cube-text{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0%,-50%);
+    color: white;
+}
+.triangle{
+    border-bottom: 25px solid transparent;
+    border-top: 25px solid transparent;
+}
+.nav-tag{
+    display: flex;
+    position: relative;
+    margin-left: 1%;
+}
+.nav-cube{
+    width: 50px;
+    height: 20px;
+}
+.nav-triangle{
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+}
+.nav-cube-text{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translate(0%,-50%);
+    font-size: x-small;
+    color: white;
+}
+.usage{
+    display: flex;
+    margin-left: 2%;
+    font-size: large;
+    flex-direction: row;
+}
+.usage-text{
+    font-weight: bold;
+    transform: translate(3%,0%);
+}
+/* TAG COLORS */
+.triangle-red{
+    border-left: 50px solid red;
+}
+.triangle-blue{
+    border-left: 50px solid rgb(66, 108, 197);
+}

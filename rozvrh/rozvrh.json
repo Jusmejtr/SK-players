@@ -1,0 +1,195 @@
+{
+    "1": {
+        "A1":{
+            "7:30":{
+                "Princípy počítačového inžinierstva": "oo"
+            },
+            "13:30":{
+                "Základy softvéhového inžinierstva": "ooo"
+            }
+        },
+        "A2":{
+            "7:30":{
+                "Programovanie": "ooo"
+            }
+        },
+        "A3":{
+            "7:30":{
+                "Programovanie": "https://discord.gg/4vBHDs9qcR"
+            }
+        },
+        "A4":{
+            "9:10":{
+                "Matematika II": "oo"
+            }
+        },
+        "A5":{
+
+        },
+        "A6":{
+            "9:10":{
+                "Programovanie": "ooo"
+            },
+            "13:30":{
+                "Fyzika I": "ooo"
+            },
+            "15:10":{
+                "Základy softvérového inžinierstva": "oo"
+            }
+        },
+        "A7":{
+
+        },
+        "A8":{
+            "9:10":{
+                "Matematika II": "oo"
+            }
+        },
+        "A9":{
+            "9:10":{
+                "Matematika II": "oo"
+            }
+        },
+        "A10":{
+            "15:10":{
+                "Fyzika I": "ooo"
+            }
+        }
+    },
+    "2":{
+        "A1":{
+            "7:30":{
+                "Programovanie": "oo"
+            }
+        },
+        "A2":{
+            "7:30":{
+                "Fyzika I": "oo"
+            },
+            "9:10":{
+                "Princípy počítačového inžinierstva": "oo"
+            }
+        },
+        "A3":{
+            "10:50":{
+                "Základy softvérového inžinierstva": "https://tuke.webex.com/tuke/j.php?MTID=m37e7e5afea9b2e00d0773656c1dc1e1a"
+            },
+            "15:10":{
+                "Základy softvérového inžinierstva": "https://tuke.webex.com/meet/emilia.pietrikova"
+            }
+        },
+        "A4":{
+            "7:30":{
+                "Princípy počítačového inžinierstva": "oo"
+            },
+            "9:10":{
+                "Programovanie": "oo"
+            }
+        },
+        "A5":{
+            "7:30":{
+                "Princípy počítačového inžinierstva": "oo"
+            },
+            "9:10":{
+                "Programovanie": "oo"
+            }
+        },
+        "A6":{
+            "7:30":{
+                "Matematika II": "oo"
+            },
+            "9:10":{
+                "Fyzika I": "oo"
+            }
+        },
+        "A7":{
+            "7:30":{
+                "Matematika II": "https://tuke.webex.com/tuke/k2/j.php?MTID=t5419d3720483ed65bf11aadcc9fddfa8"
+            },
+            "9:10":{
+                "Fyzika I": "xxx"
+            },
+            "10:50":{
+                "Základy softvérového inžinierstva": "https://tuke.webex.com/tuke/j.php?MTID=m37e7e5afea9b2e00d0773656c1dc1e1a"
+            }
+        },
+        "A9":{
+            "7:30":{
+                "Programovanie": "oo"
+            },
+            "9:10":{
+                "Princípy počítačového inžinierstva": "oo"
+            }
+        },
+        "A10":{
+            "9:10":{
+                "Matematika II": "oo"
+            }
+        },
+        "A11":{
+            "7:30":{
+                "Fyzika I": "oo"
+            },
+            "9:10":{
+                "Matematika II": "oo"
+            }
+        }
+    },
+    "3": {
+        "A3":{
+            "8:15":{
+                "Programovanie": "https://www.youtube.com/channel/UCcDMjlmdQIuFgyZIhIXuGcQ"
+            },
+            "10:50":{
+                "Matematika II": "https://kmti.fei.tuke.sk/predmet/matematika-ii2122"
+            },
+            "13:30":{
+                "Fyzika I": "xxx"
+            },
+            "15:10":{
+                "Princípy počítačového inžinierstva": "https://tuke.webex.com/meet/branislav.mados"
+            }
+        },
+        "A7":{
+            "8:15":{
+                "Programovanie": "https://www.youtube.com/channel/UCcDMjlmdQIuFgyZIhIXuGcQ"
+            },
+            "10:50":{
+                "Matematika II": "https://kmti.fei.tuke.sk/predmet/matematika-ii2122"
+            },
+            "13:30":{
+                "Fyzika I": "xxx"
+            },
+            "15:10":{
+                "Princípy počítačového inžinierstva": "https://tuke.webex.com/meet/branislav.mados"
+            }
+        }
+    },
+    "4":{
+        "A3":{
+            "7:30":{
+                "Matematika II": "https://tuke.webex.com/tuke/k2/j.php?MTID=te3c20e75f05fc4f4011d7d0afe5b96f1"
+            },
+            "9:10":{
+                "Princípy počítačového inžinierstva": "https://tuke.webex.com/meet/eugen.slapak"
+            },
+            "10:50":{
+                "Fyzika": "xxx"
+            }
+        },
+        "A7":{
+            "7:30":{
+                "Princípy počítačového inžinierstva": "https://tuke.webex.com/meet/branislav.mados"
+            },
+            "9:10":{
+                "Programovanie": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmMxZGU5MDQtNmJkYS00ODQ0LTk1Y2QtYTQ1OTNjZmQxNDY2%40thread.v2/0?context=%7b%22Tid%22%3a%221c9f27ef-fee6-45f4-9a64-255a8c8e25a5%22%2c%22Oid%22%3a%2246060836-539f-4c36-8825-cf935105f82e%22%7d"
+            },
+            "15:10":{
+                "Základy softvérového inžinierstva": "https://tuke.webex.com/meet/matus.sulir"
+            }
+        }
+    },
+    "5": {
+        
+    }
+}

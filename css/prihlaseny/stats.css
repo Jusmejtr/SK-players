@@ -1,0 +1,169 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+body {
+
+    display: flex;
+
+    flex-direction: column;
+
+    min-height: 100vh;
+
+}
+
+
+
+table,
+
+th,
+
+td {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+table {
+
+    /* position:absolute;
+
+    left:50%;
+
+    top: 50%;
+
+    transform: translate(-50%, -50%); */
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    border-collapse: collapse;
+
+    width: 600px;
+
+    height: 30%;
+
+    border: 1px solid #bdc3c7;
+
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+tr {
+
+    transition: all .2s ease-in;
+
+}
+
+
+
+th,
+
+td {
+
+    padding: 4px;
+
+    text-align: center;
+
+}
+
+
+
+tr:hover {
+
+    transform: scale(1.02);
+
+    cursor: default;
+
+}
+
+
+
+.vyber {
+
+    text-align: center;
+
+    margin-top: 50px;
+
+    padding: 15px;
+
+    font-size: 20px;
+
+}
+
+
+
+.vyber select {
+
+    font-size: 16px;
+
+    padding: 3px;
+
+}
+
+
+
+.percento {
+
+    text-align: center;
+
+    margin-top: 50px;
+
+    font-size: 20px;
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    select {
+
+        overflow-y: auto;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 610px) {
+
+    table {
+
+        width: 400px;
+
+    }
+
+    th,
+
+    td {
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+    th {
+
+        margin-top: 10px;
+
+    }
+
+    .percento {
+        margin-bottom: 125px;
+    }
+
+}

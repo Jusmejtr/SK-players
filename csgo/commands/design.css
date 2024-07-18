@@ -1,0 +1,135 @@
+body {
+    padding-top: 56px;
+}
+
+.discord {
+    position: relative;
+    display: inline;
+}
+
+#link {
+    background-color: #343a40;
+    color: white;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    border-radius: .2rem;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+.center {
+    justify-content: center;
+}
+
+.vyber{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.textik {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-size: larger;
+}
+.menu1, .menu2 {
+    border: 1px solid gray;
+    border-bottom: 0;
+    width: 25%;
+    height: 40px;
+    margin: 7px;
+    position: relative;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+
+.menu1:after,
+.menu1:before, .menu2:after, .menu2:before {
+    content: '';
+    width: 10px;
+    height: 7px;
+    border: 1px solid gray;
+    position: absolute;
+    bottom: -3px;
+    border-top: 0;
+}
+
+.menu1::after, .menu2::before{
+    display: none;
+}
+
+.menu1:after, .menu2:after {
+    border-left: 0;
+    -moz-border-radius: 0 0 5px 0;
+    -webkit-border-radius: 0 0 5px 0;
+    left: -10px;
+}
+
+.menu1:before, .menu2:before{
+    border-right: 0;
+    -moz-border-radius: 0 0 0 5px;
+    -webkit-border-radius: 0 0 0 5px;
+    right: -10px;
+}
+#activated{
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+.menu1:hover, .menu2:hover{
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+/* .okolo1{
+    border-bottom: 1px solid red;
+    position: relative;
+    bottom: -41px;
+    width: 100vh;
+    left: -103%;
+} */
+/* .okolo2{
+    border-bottom: 1px solid red;
+    position: relative;
+    bottom: -41px;
+    width: 100vh;
+    right: -103%;
+} */
+.commands{
+    padding: 1% 25%;
+}
+.box{
+    display: flex;
+    position: relative;
+}
+.Ctitle{
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 25%;
+}
+.Ctext{
+    font-size: larger;
+    position: absolute;
+    left: 50%;
+}
+
+@media only screen and (max-width: 782px) {
+    .select .menu1, .select .menu2 {
+        width: 50%;
+    }
+    .commands{
+        padding: 1% 0%;
+    }
+    .Ctitle{
+        padding-left: 10%;
+    }
+    .Ctext{
+        left: 40%;
+    }
+  }

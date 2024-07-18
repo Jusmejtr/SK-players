@@ -1,0 +1,226 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    /* overflow-y: hidden; */
+
+}
+
+
+
+.main {
+
+    display: flex;
+
+    height: 100%;
+
+}
+
+
+
+
+
+/*.discord-daily {    height: 120vh;    width: 100%;    border-right: 3px solid yellow;    display: flex;    align-items: center;    flex-direction: column;}.discord-daily .nadpis {    padding-top: 7%;    font-size: 24px;    letter-spacing: 2px;}.discord-daily .cas {    font-size: 24px;}.discord-daily .button {    padding-top: 10%;}.discord-daily button {    padding: 10px;    border-radius: 16px;    background-color: white;    color: black;    border: 2px solid yellow;    cursor: pointer;}.discord-daily button:hover {    font-size: 16px;    transition-duration: 1s;}/* Daily na webe .web-daily {    height: 100vh;    width: 100%;    display: grid;    justify-content: center;}.web-daily table {    margin-top: 5%;}.power_controls {    margin-top: 7%;    padding-bottom: 5%;    margin-left: auto;    transform: translateX(-100%);}.web-nadpis {    text-align: center;    padding-top: 10%;    font-size: 24px;    letter-spacing: 2px;}davidove css 13.2.2021*/
+
+
+
+.discord-daily {
+
+    display: block;
+
+    width: 50%;
+
+    text-align: center;
+
+    flex-direction: column;
+
+    border-right: 3px solid yellow;
+
+    height: 110vh;
+
+}
+
+
+
+.web-daily {
+
+    display: grid;
+
+    width: 50%;
+
+    text-align: center;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    height: fit-content;
+
+}
+
+
+
+.discord-daily .nadpis {
+
+    padding-top: 4%;
+
+    font-size: 140%;
+
+}
+
+
+
+.web-daily .web-nadpis {
+
+    padding-top: 4%;
+
+    font-size: 140%;
+
+}
+
+
+
+#spin_button {
+
+    margin-top: 5%;
+
+    margin-left: calc((100% - 100px) / 2);
+
+    cursor: pointer;
+
+}
+
+
+
+#web-dailicko-cas {
+
+    font-size: 120%;
+
+}
+
+
+
+#daily_time {
+
+    font-size: 120%;
+
+}
+
+
+
+.discord-daily .button {
+
+    padding-top: 10%;
+
+    display: grid;
+
+    justify-content: center;
+
+}
+
+
+
+.discord-daily button {
+
+    padding: 10px;
+
+    border-radius: 16px;
+
+    background-color: white;
+
+    color: black;
+
+    border: 2px solid yellow;
+
+    cursor: pointer;
+
+    outline: none;
+
+}
+
+
+
+.discord-daily button:hover {
+
+    font-size: 16px;
+
+    transition-duration: 1s;
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    /* * {
+
+        overflow-y: scroll;
+
+        overscroll-behavior-y: initial;
+
+    } */
+
+    .main {
+
+        display: flex;
+
+        flex-direction: column;
+
+        overflow-x: hidden;
+
+        overflow-y: scroll;
+
+    }
+
+    .web-daily {
+
+        width: 100%;
+
+        display: block;
+
+        border-top: 3px solid yellow;
+
+        display: grid;
+
+    }
+
+    .discord-daily {
+
+        height: 20vh;
+
+        width: 100%;
+
+        display: block;
+
+        border-right: none;
+
+    }
+
+    #spin_button {
+
+        margin-left: calc((100% - 100px) / 2);
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    /* * {
+
+        overflow-y: scroll;
+
+    } */
+
+    #spin_button {
+        margin-left: calc((100% - 100px) / 2);
+    }
+    html, body {
+        overscroll-behavior-y: contain;
+    }
+
+}

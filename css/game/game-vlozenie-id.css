@@ -1,0 +1,20 @@
+.ID {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.ID form {
+    text-align: center;
+}
+
+.ID form input {
+    padding: 2%;
+}
+
+.nevies_id {
+    text-align: center;
+    margin-top: 50px;
+}

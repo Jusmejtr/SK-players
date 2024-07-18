@@ -1,0 +1,32 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.discord {
+  position: relative;
+  display: inline;
+}
+#link{
+  background-color: #343a40;
+  color: white;
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  border-radius: .2rem;
+  border: 1px solid transparent;
+  text-decoration: none;
+}
+.center{
+  justify-content: center;
+}
+.card-body table{
+  display: flex;
+  justify-content: center;
+}
+.card-body input{
+  margin-top: 5%;
+}

@@ -1,0 +1,90 @@
+.datum-a-cas{
+    display: flex;
+    justify-content: space-around;
+}
+#datum, #cas, #tyzden{
+    font-size: 300%;
+
+}
+
+#ciara{
+    position: absolute;
+    left: 50%;
+    margin-top: 3%;
+    width: 3px;
+    height: 70%;
+    background-color: black;
+    z-index: 1;
+}
+#teraz{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: 0.5%;
+}
+#fotky{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#A3{
+    margin-top: 250px;
+    background-color: yellow;
+}
+#A3-logo{
+    width: 50px;
+    margin-top: 250px;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    border: 1px black solid;
+}
+#A7{
+    margin-top: 350px;
+    background-color: lightblue;
+}
+#A7-logo{
+    width: 50px;
+    margin-top: 350px;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    border: 1px black solid;
+}
+/* #domo{
+    margin-top: 450px;
+    background-color: #55ffee;
+}
+#domo-logo{
+    width: 50px;
+    margin-top: 450px;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    border: 1px black solid;
+}
+#klobaska{
+    margin-top: 550px;
+    background-color: lightblue;
+}
+#klobaska-logo{
+    width: 50px;
+    margin-top: 550px;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    border: 1px black solid;
+} */
+.posun{
+    position: absolute;
+    top: 0;
+    height: 50px;
+    width: 25%;
+    margin-top: 180px;
+    border: 1px black solid;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+    font-size: 120%;
+}
