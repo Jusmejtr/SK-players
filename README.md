@@ -1,2 +1,2 @@
 # SK players
- Web fo SK players discord server
+This website was originally created as an extension for my first project, which was a discord bot designed for my community of friends on my discord server. It fully supports all basic economy features just like my other project SKbot. Currently this website is no more mainatened.
